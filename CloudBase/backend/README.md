@@ -1,5 +1,5 @@
 # CloudBase
-python manage.py createsuperuser \n
-username: cloudbase\n
-email: chzh5137@colorado.edu\n
-password: cloudbase\n
+python manage.py createsuperuser \
+username: cloudbase\
+email: chzh5137@colorado.edu\
+password: cloudbase\
