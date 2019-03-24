@@ -1,0 +1,1 @@
+Download entire folder, and open index.html via your browser
