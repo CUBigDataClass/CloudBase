@@ -1,7 +1,7 @@
 # Team CloudBase - NBA Data Analysis
 
 # Goal
-To take a data set and extract useful and relevant team information from it. We plan to use this information to predict game winners as well as display team statistics. A little ambiti]us yes, but differently useful. We plan to give our best shot on a problem that has not been solved yet.
+To take a data set and extract useful and relevant team information from it. We plan to use this information to predict game winners as well as display team statistics. A little ambitious yes, but differently useful. We plan to give our best shot on a problem that has not been solved yet.
 
 # Slogan
 Power to the Fans.
