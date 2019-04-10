@@ -43,4 +43,5 @@ class stats(models.Model):
 	oppturnovers = models.IntegerField(null=True)
 	opptotalfouls = models.IntegerField(null=True)
 	def _str_(self):
-		return self.team
+		return str(self.team)
+	
