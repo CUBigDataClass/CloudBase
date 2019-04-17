@@ -1306,12 +1306,13 @@ a.DTTT_button {
 table.jambo_table {
     border: 1px solid rgba(221, 221, 221, 0.78)
 }
+/*edit*/
 table.jambo_table thead {
-    background: rgba(52, 73, 94, 0.94);
+    background: #1A477B;
     color: #ECF0F1
 }
 table.jambo_table tbody tr:hover td {
-    background: rgba(38, 185, 154, 0.07);
+    background: rgba(26, 71, 123,0.06);
     border-top: 1px solid rgba(38, 185, 154, 0.11);
     border-bottom: 1px solid rgba(38, 185, 154, 0.11)
 }
