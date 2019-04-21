@@ -1,0 +1,503 @@
+location,team_name,player,jersey,position,height,weight,birthday,age,experience,school
+Atlantic,BOSTON CELTICS,Jayson Tatum,#0,F,8-Jun,208 lbs,3-Mar-98,21,1,Duke
+Atlantic,BOSTON CELTICS,Jonathan Gibson,#3,G,2-Jun,185 lbs,8-Nov-87,31,2,New Mexico State
+Atlantic,BOSTON CELTICS,Jaylen Brown,#7,G,7-Jun,220 lbs,24-Oct-96,22,2,California
+Atlantic,BOSTON CELTICS,Brad Wanamaker,#9,G,4-Jun,210 lbs,25-Jul-89,29,R,Pittsburgh
+Atlantic,BOSTON CELTICS,Kyrie Irving,#11,G,3-Jun,193 lbs,23-Mar-92,27,7,Duke
+Atlantic,BOSTON CELTICS,Terry Rozier,#12,G,1-Jun,190 lbs,17-Mar-94,25,3,Louisville
+Atlantic,BOSTON CELTICS,Marcus Morris,#13,F,9-Jun,235 lbs,2-Sep-89,29,7,Kansas
+Atlantic,BOSTON CELTICS,Gordon Hayward,#20,F,8-Jun,225 lbs,23-Mar-90,29,8,Butler
+Atlantic,BOSTON CELTICS,Daniel Theis,#27,F,8-Jun,243 lbs,4-Apr-92,27,1,
+Atlantic,BOSTON CELTICS,RJ Hunter,#28,G,5-Jun,185 lbs,24-Oct-93,25,3,Georgia State
+Atlantic,BOSTON CELTICS,Guerschon Yabusele,#30,F,19-Jun,260 lbs,17-Dec-95,23,1,
+Atlantic,BOSTON CELTICS,Marcus Smart,#36,G,4-Jun,220 lbs,6-Mar-94,25,4,Oklahoma State
+Atlantic,BOSTON CELTICS,Semi Ojeleye,#37,F,7-Jun,241 lbs,5-Dec-94,24,1,Southern Methodist
+Atlantic,BOSTON CELTICS,Al Horford,#42,C-F,10-Jun,245 lbs,3-Jun-86,32,11,Florida
+Atlantic,BOSTON CELTICS,Robert Williams III,#44,C-F,10-Jun,240 lbs,17-Oct-97,21,R,Texas A&M
+Atlantic,BOSTON CELTICS,Aron Baynes,#46,C-F,10-Jun,260 lbs,9-Dec-86,32,6,Washington State
+Atlantic,BOSTON CELTICS,PJ Dozier,#50,G-F,19-Jun,205 lbs,25-Oct-96,22,1,South Carolina
+Atlantic,Brooklyn Nets,Allen Crabbe,#33,G-F,6-Jun,212 lbs,9-Apr-92,27,5,California
+Atlantic,Brooklyn Nets,Dzanan Musa,#30,G-F,9-Jun,208 lbs,8-May-99,19,R,
+Atlantic,Brooklyn Nets,Theo Pinson,#10,G-F,6-Jun,218 lbs,5-Nov-95,23,R,
+Atlantic,Brooklyn Nets,Caris LeVert,#22,G,7-Jun,204 lbs,25-Aug-94,24,2,Michigan
+Atlantic,Brooklyn Nets,Shabazz Napier,#13,G,1-Jun,180 lbs,14-Jul-91,27,4,Connecticut
+Atlantic,Brooklyn Nets,Spencer Dinwiddie,#8,G,6-Jun,210 lbs,6-Apr-93,26,4,Colorado
+Atlantic,Brooklyn Nets,D'Angelo Russell,#1,G,5-Jun,198 lbs,23-Feb-96,23,3,Ohio State
+Atlantic,Brooklyn Nets,Joe Harris,#12,F-G,6-Jun,218 lbs,6-Sep-91,27,4,Virginia
+Atlantic,Brooklyn Nets,Alan Williams,#15,F-C,8-Jun,265 lbs,28-Jan-93,26,3,California-Santa Barbara
+Atlantic,Brooklyn Nets,Rondae Hollis-Jefferson,#24,F,7-Jun,217 lbs,3-Jan-95,24,3,Arizona
+Atlantic,Brooklyn Nets,Treveon Graham,#21,F,5-Jun,225 lbs,28-Oct-93,25,2,Virginia Commonwealth
+Atlantic,Brooklyn Nets,DeMarre Carroll,#9,F,8-Jun,215 lbs,27-Jul-86,32,9,Missouri
+Atlantic,Brooklyn Nets,Jared Dudley,#6,F,7-Jun,237 lbs,10-Jul-85,33,11,Boston College
+Atlantic,Brooklyn Nets,Rodions Kurucs,#00,F,9-Jun,210 lbs,5-Feb-98,21,R,
+Atlantic,Brooklyn Nets,Jarrett Allen,#31,C,11-Jun,237 lbs,21-Apr-98,20,1,Texas
+Atlantic,Brooklyn Nets,Ed Davis,#17,C,10-Jun,225 lbs,5-Jun-89,29,8,North Carolina
+Atlantic,New York Knicks,Kadeem Allen,#0,G,3-Jun,200 lbs,15-Jan-93,26,1,Arizona
+Atlantic,New York Knicks,Emmanuel Mudiay,#1,G,5-Jun,200 lbs,5-Mar-96,23,3,
+Atlantic,New York Knicks,Luke Kornet,#2,F-C,1-Jul,250 lbs,15-Jul-95,23,1,Vanderbilt
+Atlantic,New York Knicks,Billy Garrett,#3,G-F,6-Jun,215 lbs,16-Oct-94,24,R,DePaul
+Atlantic,New York Knicks,Isaiah Hicks,#4,F,9-Jun,230 lbs,24-Jul-94,24,1,North Carolina
+Atlantic,New York Knicks,Dennis Smith Jr.,#5,G,3-Jun,195 lbs,25-Nov-97,21,1,North Carolina State
+Atlantic,New York Knicks,DeAndre Jordan,#6,C,11-Jun,265 lbs,21-Jul-88,30,10,Texas A&M
+Atlantic,New York Knicks,Mario Hezonja,#8,F,8-Jun,225 lbs,25-Feb-95,24,3,Croatia
+Atlantic,New York Knicks,Frank Ntilikina,#11,G,6-Jun,200 lbs,28-Jul-98,20,1,
+Atlantic,New York Knicks,Henry Ellenson,#13,F,11-Jun,245 lbs,13-Jan-97,22,2,Marquette
+Atlantic,New York Knicks,Allonzo Trier,#14,G,5-Jun,200 lbs,17-Jan-96,23,R,University of Arizona
+Atlantic,New York Knicks,Kevin Knox,#20,F,9-Jun,215 lbs,11-Aug-99,19,R,Kentucky
+Atlantic,New York Knicks,Damyean Dotson,#21,G,6-Jun,210 lbs,6-May-94,24,1,Houston
+Atlantic,New York Knicks,Mitchell Robinson,#26,C,1-Jul,240 lbs,1-Apr-98,21,R,
+Atlantic,New York Knicks,John Jenkins,#30,G,4-Jun,215 lbs,6-Mar-91,28,5,Vanderbilt
+Atlantic,New York Knicks,Noah Vonleh,#32,F,9-Jun,250 lbs,24-Aug-95,23,4,Indiana
+Atlantic,New York Knicks,Lance Thomas,#42,F,8-Jun,240 lbs,24-Apr-88,30,7,Duke
+Atlantic,Philadelphia 76ers,Mike Scott,#1,F,8-Jun,237 lbs,16-Jul-88,30,6,Virginia
+Atlantic,Philadelphia 76ers,Amir Johnson,#5,C-F,9-Jun,240 lbs,1-May-87,31,13,Westchester HS (Los Angeles)
+Atlantic,Philadelphia 76ers,Haywood Highsmith,#7,F,7-Jun,220 lbs,9-Dec-96,22,R,
+Atlantic,Philadelphia 76ers,Zhaire Smith,#8,G,4-Jun,199 lbs,4-Jun-99,19,R,Texas Tech
+Atlantic,Philadelphia 76ers,James Ennis III,#11,F,7-Jun,210 lbs,1-Jul-90,28,4,Long Beach State
+Atlantic,Philadelphia 76ers,T.J. McConnell,#12,G,2-Jun,190 lbs,25-Mar-92,27,3,Arizona
+Atlantic,Philadelphia 76ers,Jonathon Simmons,#14,F,6-Jun,195 lbs,14-Sep-89,29,3,Houston
+Atlantic,Philadelphia 76ers,JJ Redick,#17,G,4-Jun,200 lbs,24-Jun-84,34,12,Duke
+Atlantic,Philadelphia 76ers,Shake Milton,#18,G,6-Jun,207 lbs,26-Sep-96,22,R,Southern Methodist
+Atlantic,Philadelphia 76ers,Joel Embiid,#21,F-C,Jul-00,250 lbs,16-Mar-94,25,2,Kansas
+Atlantic,Philadelphia 76ers,Jimmy Butler,#23,G-F,8-Jun,232 lbs,14-Sep-89,29,7,Marquette
+Atlantic,Philadelphia 76ers,Ben Simmons,#25,G-F,10-Jun,230 lbs,20-Jul-96,22,1,Louisiana State
+Atlantic,Philadelphia 76ers,Furkan Korkmaz,#30,G-F,7-Jun,190 lbs,24-Jul-97,21,1,
+Atlantic,Philadelphia 76ers,Tobias Harris,#33,F,9-Jun,235 lbs,15-Jul-92,26,7,Tennessee
+Atlantic,Philadelphia 76ers,Jonah Bolden,#43,F,10-Jun,220 lbs,2-Jan-96,23,R,
+Atlantic,Philadelphia 76ers,Boban Marjanovic,#51,C,3-Jul,290 lbs,15-Aug-88,30,3,
+Atlantic,Philadelphia 76ers,Greg Monroe,#55,C,11-Jun,265 lbs,4-Jun-90,28,8,Georgetown
+Atlantic,Toronto Raptors,Patrick McCaw,#1,G,7-Jun,185 lbs,25-Oct-95,23,2,Nevada-Las Vegas
+Atlantic,Toronto Raptors,Kawhi Leonard,#2,F,7-Jun,230 lbs,29-Jun-91,27,7,San Diego State
+Atlantic,Toronto Raptors,OG Anunoby,#3,F,8-Jun,232 lbs,17-Jul-97,21,1,Indiana
+Atlantic,Toronto Raptors,Kyle Lowry,#7,G,1-Jun,196 lbs,25-Mar-86,33,12,Villanova
+Atlantic,Toronto Raptors,Jordan Loyd,#8,G,4-Jun,210 lbs,27-Jul-93,25,R,Indianapolis
+Atlantic,Toronto Raptors,Serge Ibaka,#9,C-F,10-Jun,235 lbs,18-Sep-89,29,9,"Brazzaville, Rep. of Congo"
+Atlantic,Toronto Raptors,Malcolm Miller,#13,F,7-Jun,210 lbs,6-Mar-93,26,1,Holy Cross
+Atlantic,Toronto Raptors,Danny Green,#14,G-F,6-Jun,215 lbs,22-Jun-87,31,9,North Carolina
+Atlantic,Toronto Raptors,Eric Moreland,#15,F-C,10-Jun,238 lbs,24-Dec-91,27,3,Oregon State
+Atlantic,Toronto Raptors,Jeremy Lin,#17,G,3-Jun,200 lbs,23-Aug-88,30,8,Harvard
+Atlantic,Toronto Raptors,Jodie Meeks,#20,G,4-Jun,210 lbs,21-Aug-87,31,9,Kentucky
+Atlantic,Toronto Raptors,Fred VanVleet,#23,G,Jun-00,195 lbs,25-Feb-94,25,2,Wichita State
+Atlantic,Toronto Raptors,Norman Powell,#24,F-G,4-Jun,215 lbs,25-May-93,25,3,UCLA
+Atlantic,Toronto Raptors,Chris Boucher,#25,F,10-Jun,200 lbs,11-Jan-93,26,1,Oregon
+Atlantic,Toronto Raptors,Marc Gasol,#33,C,1-Jul,255 lbs,29-Jan-85,34,10,"Barcelona, Spain"
+Atlantic,Toronto Raptors,Pascal Siakam,#43,F,9-Jun,230 lbs,2-Apr-94,25,2,New Mexico State
+Central,Chicago Bulls,Shaquille Harrison,#3,G,4-Jun,190 lbs,6-Oct-93,25,1,Tulsa
+Central,Chicago Bulls,Cristiano Felicio,#6,F-C,10-Jun,265 lbs,7-Jul-92,26,3,
+Central,Chicago Bulls,Timothe Luwawu-Cabarrot,#7,G-F,6-Jun,210 lbs,9-May-95,23,2,
+Central,Chicago Bulls,Zach LaVine,#8,G,5-Jun,200 lbs,10-Mar-95,24,4,UCLA
+Central,Chicago Bulls,Antonio Blakeney,#9,G,4-Jun,192 lbs,4-Oct-96,22,1,Louisiana State
+Central,Chicago Bulls,Wayne Selden,#14,G-F,5-Jun,230 lbs,30-Sep-94,24,2,Kansas
+Central,Chicago Bulls,Chandler Hutchison,#15,F,7-Jun,197 lbs,26-Apr-96,22,R,Boise State
+Central,Chicago Bulls,Rawle Alkins,#20,G,5-Jun,225 lbs,29-Oct-97,21,R,
+Central,Chicago Bulls,Otto Porter Jr.,#22,F,8-Jun,198 lbs,3-Jun-93,25,5,Georgetown
+Central,Chicago Bulls,Lauri Markkanen,#24,F,Jul-00,240 lbs,22-May-97,21,1,Arizona
+Central,Chicago Bulls,Walter Lemon Jr.,#25,G,3-Jun,180 lbs,26-Jul-92,26,1,Bradley
+Central,Chicago Bulls,Kris Dunn,#32,G,4-Jun,205 lbs,18-Mar-94,25,2,Providence
+Central,Chicago Bulls,Wendell Carter Jr.,#34,C,10-Jun,255 lbs,16-Apr-99,20,R,Duke
+Central,Chicago Bulls,JaKarr Sampson,#41,F,9-Jun,215 lbs,20-Mar-93,26,3,St. John's (NY)
+Central,Chicago Bulls,Robin Lopez,#42,C,Jul-00,275 lbs,1-Apr-88,31,10,Stanford
+Central,Chicago Bulls,Brandon Sampson,#44,G,5-Jun,184 lbs,1-May-97,21,R,
+Central,Chicago Bulls,Denzel Valentine,#45,G,6-Jun,210 lbs,16-Nov-93,25,2,Michigan State
+Central,Chicago Bulls,Ryan Arcidiacono,#51,G,3-Jun,200 lbs,26-Mar-94,25,1,Villanova
+Central,Cleveland Cavaliersÿ,Kevin Love,#0,F-C,10-Jun,251 lbs,7-Sep-88,30,10,UCLA
+Central,Cleveland Cavaliersÿ,Nik Stauskas,#1,G,6-Jun,205 lbs,7-Oct-93,25,4,Michigan
+Central,Cleveland Cavaliersÿ,Collin Sexton,#2,G,2-Jun,190 lbs,4-Jan-99,20,R,Alabama
+Central,Cleveland Cavaliersÿ,Marquese Chriss,#3,F,10-Jun,240 lbs,2-Jul-97,21,2,Washington
+Central,Cleveland Cavaliersÿ,Jaron Blossomgame,#4,F,8-Jun,220 lbs,16-Sep-93,25,R,Clemson
+Central,Cleveland Cavaliersÿ,JR Smith,#5,G-F,6-Jun,225 lbs,9-Sep-85,33,14,St. Benedict's Prep (NJ)
+Central,Cleveland Cavaliersÿ,Jordan Clarkson,#8,G,5-Jun,194 lbs,7-Jun-92,26,4,Missouri
+Central,Cleveland Cavaliersÿ,Channing Frye,#9,F-C,Jul-00,255 lbs,17-May-83,35,12,Arizona
+Central,Cleveland Cavaliersÿ,David Nwaba,#12,G,4-Jun,219 lbs,14-Jan-93,26,2,Cal Poly-S.L.O.
+Central,Cleveland Cavaliersÿ,Tristan Thompson,#13,C-F,10-Jun,238 lbs,13-Mar-91,28,7,Texas
+Central,Cleveland Cavaliersÿ,Cedi Osman,#16,F,8-Jun,215 lbs,8-Apr-95,24,1,Anadolu Efes
+Central,Cleveland Cavaliersÿ,Matthew Dellavedova,#18,G,4-Jun,200 lbs,8-Sep-90,28,5,Saint Mary's (CA)
+Central,Cleveland Cavaliersÿ,Brandon Knight,#20,G,3-Jun,195 lbs,2-Dec-91,27,6,Kentucky
+Central,Cleveland Cavaliersÿ,Larry Nance Jr.,#22,F,9-Jun,230 lbs,1-Jan-93,26,3,Wyoming
+Central,Cleveland Cavaliersÿ,John Henson,#31,F,11-Jun,219 lbs,28-Dec-90,28,6,North Carolina
+Central,Cleveland Cavaliersÿ,Deng Adel,#32,F,7-Jun,200 lbs,1-Feb-97,22,R,
+Central,Cleveland Cavaliersÿ,Ante Zizic,#41,C,11-Jun,254 lbs,4-Jan-97,22,1,
+Central,Detroit Pistonsÿ,Andre Drummond,#0,C,11-Jun,279 lbs,10-Aug-93,25,6,Connecticut
+Central,Detroit Pistonsÿ,Reggie Jackson,#1,G,3-Jun,208 lbs,16-Apr-90,29,7,Boston College
+Central,Detroit Pistonsÿ,Luke Kennard,#5,G,5-Jun,206 lbs,24-Jun-96,22,1,Duke
+Central,Detroit Pistonsÿ,Bruce Brown,#6,G,5-Jun,202 lbs,15-Aug-96,22,R,Miami (FL)
+Central,Detroit Pistonsÿ,Thon Maker,#7,F,1-Jul,221 lbs,25-Feb-97,22,2,
+Central,Detroit Pistonsÿ,Langston Galloway,#9,G,2-Jun,200 lbs,9-Dec-91,27,4,Saint Joseph's
+Central,Detroit Pistonsÿ,Isaiah Whitehead,#12,G,4-Jun,213 lbs,8-Mar-95,24,2,Seton Hall
+Central,Detroit Pistonsÿ,Khyri Thomas,#13,G,3-Jun,210 lbs,8-May-96,22,R,Creighton
+Central,Detroit Pistonsÿ,Ish Smith,#14,G,Jun-00,175 lbs,5-Jul-88,30,8,Wake Forest
+Central,Detroit Pistonsÿ,Svi Mykhailiuk,#19,G,8-Jun,205 lbs,10-Jun-97,21,R,Kansas
+Central,Detroit Pistonsÿ,Wayne Ellington,#20,G,5-Jun,200 lbs,29-Nov-87,31,9,North Carolina
+Central,Detroit Pistonsÿ,Glenn Robinson III,#22,G-F,6-Jun,222 lbs,8-Jan-94,25,4,Michigan
+Central,Detroit Pistonsÿ,Blake Griffin,#23,F,10-Jun,250 lbs,16-Mar-89,30,8,Oklahoma
+Central,Detroit Pistonsÿ,Kalin Lucas,#24,G,1-Jun,195 lbs,24-May-89,29,1,Michigan State
+Central,Detroit Pistonsÿ,Zaza Pachulia,#27,C,11-Jun,270 lbs,10-Feb-84,35,15,"Tbilisi, Georgia"
+Central,Detroit Pistonsÿ,Jon Leuer,#30,F,10-Jun,228 lbs,14-May-89,29,7,Wisconsin
+Central,Detroit Pistonsÿ,Jose Calderon,#81,G,3-Jun,200 lbs,28-Sep-81,37,13,"Villanueva de la Serena, Spain"
+Central,Indiana Pacersÿ,Darren Collison,#2,G,Jun-00,175 lbs,23-Aug-87,31,9,UCLA
+Central,Indiana Pacersÿ,Aaron Holiday,#3,G,1-Jun,185 lbs,30-Sep-96,22,R,California-Los Angeles
+Central,Indiana Pacersÿ,Victor Oladipo,#4,G,4-Jun,210 lbs,4-May-92,26,5,Indiana
+Central,Indiana Pacersÿ,Edmond Sumner,#5,G,6-Jun,176 lbs,31-Dec-95,23,1,Xavier
+Central,Indiana Pacersÿ,Cory Joseph,#6,G,3-Jun,193 lbs,20-Aug-91,27,7,Texas
+Central,Indiana Pacersÿ,Kyle O'Quinn,#10,C,10-Jun,250 lbs,26-Mar-90,29,6,Norfolk State
+Central,Indiana Pacersÿ,Domantas Sabonis,#11,F,11-Jun,240 lbs,3-May-96,22,2,Gonzaga
+Central,Indiana Pacersÿ,Tyreke Evans,#12,G,6-Jun,220 lbs,19-Sep-89,29,9,Memphis
+Central,Indiana Pacersÿ,Doug McDermott,#20,F,8-Jun,225 lbs,3-Jan-92,27,4,Creighton
+Central,Indiana Pacersÿ,Thaddeus Young,#21,F,8-Jun,221 lbs,21-Jun-88,30,11,Georgia Tech
+Central,Indiana Pacersÿ,TJ Leaf,#22,F,10-Jun,225 lbs,30-Apr-97,21,1,California-Los Angeles
+Central,Indiana Pacersÿ,Wesley Matthews,#23,G-F,5-Jun,220 lbs,14-Oct-86,32,9,Marquette
+Central,Indiana Pacersÿ,Alize Johnson,#24,F,9-Jun,212 lbs,22-Apr-96,22,R,Missouri State
+Central,Indiana Pacersÿ,Davon Reed,#32,G,5-Jun,208 lbs,11-Jun-95,23,1,Miami (FL)
+Central,Indiana Pacersÿ,Myles Turner,#33,C-F,11-Jun,250 lbs,24-Mar-96,23,3,Texas
+Central,Indiana Pacersÿ,Bojan Bogdanovic,#44,F,8-Jun,216 lbs,18-Apr-89,29,4,
+Central,Milwaukee Bucks,George Hill,#3,G,3-Jun,188 lbs,4-May-86,32,10,Indiana Purdue-Indianapolis
+Central,Milwaukee Bucks,D.J. Wilson,#5,F,10-Jun,231 lbs,19-Feb-96,23,1,Michigan
+Central,Milwaukee Bucks,Eric Bledsoe,#6,G,1-Jun,205 lbs,9-Dec-89,29,8,Kentucky
+Central,Milwaukee Bucks,Donte DiVincenzo,#9,G,4-Jun,203 lbs,31-Jan-97,22,R,Villanova
+Central,Milwaukee Bucks,Brook Lopez,#11,C,Jul-00,270 lbs,1-Apr-88,31,10,Stanford
+Central,Milwaukee Bucks,Tim Frazier,#12,G,1-Jun,170 lbs,1-Nov-90,28,4,
+Central,Milwaukee Bucks,Malcolm Brogdon,#13,G,5-Jun,229 lbs,11-Dec-92,26,2,Virginia
+Central,Milwaukee Bucks,Pau Gasol,#17,C-F,Jul-00,250 lbs,6-Jul-80,38,17,"Barcelona, Spain"
+Central,Milwaukee Bucks,Tony Snell,#21,G,7-Jun,213 lbs,10-Nov-91,27,5,New Mexico
+Central,Milwaukee Bucks,Khris Middleton,#22,F,8-Jun,222 lbs,12-Aug-91,27,6,Texas A&M
+Central,Milwaukee Bucks,Sterling Brown,#23,G,6-Jun,232 lbs,10-Feb-95,24,1,Southern Methodist
+Central,Milwaukee Bucks,Pat Connaughton,#24,G,4-Jun,209 lbs,6-Jan-93,26,3,Notre Dame
+Central,Milwaukee Bucks,Giannis Antetokounmpo,#34,F,11-Jun,242 lbs,6-Dec-94,24,5,Greece
+Central,Milwaukee Bucks,Nikola Mirotic,#41,F,10-Jun,250 lbs,11-Feb-91,28,4,
+Central,Milwaukee Bucks,Bonzie Colson,#50,F,6-Jun,225 lbs,12-Jan-96,23,R,Notre Dame
+Central,Milwaukee Bucks,Ersan Ilyasova,#77,F,10-Jun,235 lbs,15-May-87,31,10,"Eskisehir, Turkey"
+Northwest,Denver Nuggetsÿ,Isaiah Thomas,#0,G,9-May,185 lbs,7-Feb-89,30,7,Washington
+Northwest,Denver Nuggetsÿ,Michael Porter Jr.,#1,F,10-Jun,210 lbs,29-Jun-98,20,R,Missouri
+Northwest,Denver Nuggetsÿ,Torrey Craig,#3,F,7-Jun,215 lbs,19-Dec-90,28,1,South Carolina Upstate
+Northwest,Denver Nuggetsÿ,Paul Millsap,#4,F,8-Jun,246 lbs,10-Feb-85,34,12,Louisiana Tech
+Northwest,Denver Nuggetsÿ,Will Barton,#5,G,6-Jun,190 lbs,6-Jan-91,28,6,Memphis
+Northwest,Denver Nuggetsÿ,Brandon Goodwin,#6,G,2-Jun,180 lbs,2-Oct-95,23,R,
+Northwest,Denver Nuggetsÿ,Trey Lyles,#7,F,10-Jun,234 lbs,5-Nov-95,23,3,Kentucky
+Northwest,Denver Nuggetsÿ,Jarred Vanderbilt,#8,F,9-Jun,214 lbs,3-Apr-99,20,R,Kentucky
+Northwest,Denver Nuggetsÿ,Monte Morris,#11,G,3-Jun,175 lbs,27-Jun-95,23,1,Iowa State
+Northwest,Denver Nuggetsÿ,Gary Harris,#14,G,4-Jun,210 lbs,14-Sep-94,24,4,Michigan State
+Northwest,Denver Nuggetsÿ,Nikola Jokic,#15,C,Jul-00,250 lbs,19-Feb-95,24,3,Serbia
+Northwest,Denver Nuggetsÿ,Tyler Lydon,#20,F,10-Jun,225 lbs,9-Apr-96,23,1,Syracuse
+Northwest,Denver Nuggetsÿ,Mason Plumlee,#24,F-C,11-Jun,235 lbs,5-Mar-90,29,5,Duke
+Northwest,Denver Nuggetsÿ,Malik Beasley,#25,G,5-Jun,195 lbs,26-Nov-96,22,2,Florida State
+Northwest,Denver Nuggetsÿ,Jamal Murray,#27,G,4-Jun,207 lbs,23-Feb-97,22,2,Kentucky
+Northwest,Denver Nuggetsÿ,Juancho Hernangomez,#41,F,9-Jun,230 lbs,28-Sep-95,23,2,
+Northwest,Denver Nuggetsÿ,Thomas Welsh,#45,C,Jul-00,255 lbs,3-Feb-96,23,R,California-Los Angeles
+Northwest,Minnesota Timberwolves,Jeff Teague,#0,G,2-Jun,195 lbs,10-Jun-88,30,9,Wake Forest
+Northwest,Minnesota Timberwolves,Tyus Jones,#1,G,2-Jun,196 lbs,10-May-96,22,3,Duke
+Northwest,Minnesota Timberwolves,Jared Terrell,#3,G,3-Jun,227 lbs,10-Feb-95,24,R,Rhode Island
+Northwest,Minnesota Timberwolves,Gorgui Dieng,#5,C,11-Jun,252 lbs,18-Jan-90,29,5,Louisville
+Northwest,Minnesota Timberwolves,Jerryd Bayless,#8,G,3-Jun,200 lbs,20-Aug-88,30,10,Arizona
+Northwest,Minnesota Timberwolves,Luol Deng,#9,F,9-Jun,237 lbs,16-Apr-85,34,14,Duke
+Northwest,Minnesota Timberwolves,C.J. Williams,#12,G,5-Jun,226 lbs,6-Feb-90,29,1,North Carolina State
+Northwest,Minnesota Timberwolves,Cameron Reynolds,#13,G,8-Jun,225 lbs,7-Feb-95,24,R,
+Northwest,Minnesota Timberwolves,Josh Okogie,#20,G,4-Jun,212 lbs,1-Sep-98,20,R,Georgia Tech
+Northwest,Minnesota Timberwolves,Andrew Wiggins,#22,F-G,8-Jun,194 lbs,23-Feb-95,24,4,Kansas
+Northwest,Minnesota Timberwolves,Derrick Rose,#25,G,3-Jun,200 lbs,4-Oct-88,30,9,Memphis
+Northwest,Minnesota Timberwolves,Keita Bates-Diop,#31,F,9-Jun,229 lbs,23-Jan-96,23,R,Ohio State
+Northwest,Minnesota Timberwolves,Karl-Anthony Towns,#32,C,Jul-00,248 lbs,15-Nov-95,23,3,Kentucky
+Northwest,Minnesota Timberwolves,Robert Covington,#33,F,9-Jun,225 lbs,14-Dec-90,28,5,Tennessee State
+Northwest,Minnesota Timberwolves,Dario Saric,#36,F,10-Jun,223 lbs,8-Apr-94,25,2,
+Northwest,Minnesota Timberwolves,Anthony Tolliver,#43,F,8-Jun,250 lbs,1-Jun-85,33,10,Creighton
+Northwest,Minnesota Timberwolves,Mitchell Creek,#55,F-G,6-Jun,225 lbs,27-Apr-92,26,R,
+Northwest,Minnesota Timberwolves,Taj Gibson,#67,F,9-Jun,232 lbs,24-Jun-85,33,9,Southern California
+Northwest,Oklahoma City Thunder,Russell Westbrook,#0,G,3-Jun,200 lbs,12-Nov-88,30,10,UCLA
+Northwest,Oklahoma City Thunder,Raymond Felton,#2,G,1-Jun,205 lbs,26-Jun-84,34,13,North Carolina
+Northwest,Oklahoma City Thunder,Nerlens Noel,#3,F-C,11-Jun,220 lbs,10-Apr-94,25,4,Kentucky
+Northwest,Oklahoma City Thunder,Markieff Morris,#5,F,10-Jun,245 lbs,2-Sep-89,29,7,Kansas
+Northwest,Oklahoma City Thunder,Hamidou Diallo,#6,G,5-Jun,198 lbs,31-Jul-98,20,R,Kentucky
+Northwest,Oklahoma City Thunder,Jawun Evans,#8,G,Jun-00,190 lbs,26-Jul-96,22,1,Oklahoma State
+Northwest,Oklahoma City Thunder,Jerami Grant,#9,F,9-Jun,220 lbs,12-Mar-94,25,4,Syracuse
+Northwest,Oklahoma City Thunder,Abdel Nader,#11,F,6-Jun,225 lbs,25-Sep-93,25,1,Iowa State
+Northwest,Oklahoma City Thunder,Steven Adams,#12,C,Jul-00,265 lbs,20-Jul-93,25,5,Pittsburgh
+Northwest,Oklahoma City Thunder,Paul George,#13,F,9-Jun,220 lbs,2-May-90,28,8,Fresno State
+Northwest,Oklahoma City Thunder,Donte Grantham,#15,F,8-Jun,215 lbs,19-Mar-95,24,R,Clemson
+Northwest,Oklahoma City Thunder,Dennis Schroder,#17,G,1-Jun,172 lbs,15-Sep-93,25,5,Germany
+Northwest,Oklahoma City Thunder,Andre Roberson,#21,G-F,7-Jun,210 lbs,4-Dec-91,27,5,Colorado
+Northwest,Oklahoma City Thunder,Terrance Ferguson,#23,G,7-Jun,190 lbs,17-May-98,20,1,
+Northwest,Oklahoma City Thunder,Deonte Burton,#30,G,5-Jun,245 lbs,31-Jan-94,25,R,Iowa State
+Northwest,Oklahoma City Thunder,Patrick Patterson,#54,F,9-Jun,230 lbs,14-Mar-89,30,8,Kentucky
+Northwest,Portland Trail Blazers,Enes Kanter,#00,C,11-Jun,250 lbs,20-May-92,26,7,Kentucky
+Northwest,Portland Trail Blazers,Damian Lillard,#0,G,3-Jun,195 lbs,15-Jul-90,28,6,Weber State
+Northwest,Portland Trail Blazers,Evan Turner,#1,G-F,7-Jun,220 lbs,27-Oct-88,30,8,Ohio State
+Northwest,Portland Trail Blazers,CJ McCollum,#3,G,3-Jun,190 lbs,19-Sep-91,27,5,Lehigh
+Northwest,Portland Trail Blazers,Maurice Harkless,#4,F,9-Jun,220 lbs,11-May-93,25,6,St. John's (NY)
+Northwest,Portland Trail Blazers,Rodney Hood,#5,G,8-Jun,206 lbs,20-Oct-92,26,4,Duke
+Northwest,Portland Trail Blazers,Al-Farouq Aminu,#8,F,9-Jun,220 lbs,21-Sep-90,28,8,Wake Forest
+Northwest,Portland Trail Blazers,Gary Trent Jr.,#9,G,6-Jun,205 lbs,18-Jan-99,20,R,
+Northwest,Portland Trail Blazers,Jake Layman,#10,F,9-Jun,215 lbs,7-Mar-94,25,2,Maryland
+Northwest,Portland Trail Blazers,Meyers Leonard,#11,F-C,1-Jul,255 lbs,27-Feb-92,27,6,Illinois
+Northwest,Portland Trail Blazers,Skal Labissiere,#17,F,11-Jun,235 lbs,18-Mar-96,23,2,Kentucky
+Northwest,Portland Trail Blazers,Anfernee Simons,#24,G,4-Jun,185 lbs,8-Jun-99,19,R,IMG Academy
+Northwest,Portland Trail Blazers,Jusuf Nurkic,#27,C,Jul-00,275 lbs,23-Aug-94,24,4,
+Northwest,Portland Trail Blazers,Seth Curry,#31,G,2-Jun,185 lbs,23-Aug-90,28,4,Duke
+Northwest,Portland Trail Blazers,Zach Collins,#33,F-C,Jul-00,235 lbs,19-Nov-97,21,1,Gonzaga
+Northwest,Utah Jazz,Joe Ingles,#2,F,8-Jun,226 lbs,2-Oct-87,31,4,
+Northwest,Utah Jazz,Ricky Rubio,#3,G,4-Jun,190 lbs,21-Oct-90,28,7,"El Masnou, Spain"
+Northwest,Utah Jazz,Dante Exum,#11,G,6-Jun,190 lbs,13-Jul-95,23,3,
+Northwest,Utah Jazz,Tony Bradley,#13,C,10-Jun,248 lbs,8-Jan-98,21,1,North Carolina
+Northwest,Utah Jazz,Derrick Favors,#15,F-C,10-Jun,265 lbs,15-Jul-91,27,8,Georgia Tech
+Northwest,Utah Jazz,Thabo Sefolosha,#22,F,7-Jun,220 lbs,2-May-84,34,12,"Vevey, Switzerland"
+Northwest,Utah Jazz,Royce O'Neale,#23,F,6-Jun,226 lbs,5-Jun-93,25,1,Baylor
+Northwest,Utah Jazz,Grayson Allen,#24,G,5-Jun,198 lbs,8-Oct-95,23,R,Duke
+Northwest,Utah Jazz,Raul Neto,#25,G,1-Jun,179 lbs,19-May-92,26,3,
+Northwest,Utah Jazz,Kyle Korver,#26,G-F,7-Jun,212 lbs,17-Mar-81,38,15,Creighton
+Northwest,Utah Jazz,Rudy Gobert,#27,C,1-Jul,245 lbs,26-Jun-92,26,5,France
+Northwest,Utah Jazz,Naz Mitrou-Long,#30,G,4-Jun,218 lbs,3-Aug-93,25,1,Iowa State
+Northwest,Utah Jazz,Georges Niang,#31,F,8-Jun,230 lbs,17-Jun-93,25,2,Iowa State
+Northwest,Utah Jazz,Ekpe Udoh,#33,C-F,10-Jun,245 lbs,20-May-87,31,6,Baylor
+Northwest,Utah Jazz,Tyler Cavanaugh,#34,F,9-Jun,238 lbs,9-Feb-94,25,1,George Washington
+Northwest,Utah Jazz,Donovan Mitchell,#45,G,3-Jun,215 lbs,7-Sep-96,22,1,Louisville
+Northwest,Utah Jazz,Jae Crowder,#99,F,6-Jun,235 lbs,6-Jul-90,28,6,Marquette
+Pacific,Golden State Warriorsÿ,DeMarcus Cousins,#0,C,11-Jun,270 lbs,13-Aug-90,28,8,Kentucky
+Pacific,Golden State Warriorsÿ,Damion Lee,#1,G,6-Jun,210 lbs,21-Oct-92,26,1,Louisville
+Pacific,Golden State Warriorsÿ,Jordan Bell,#2,F,9-Jun,224 lbs,7-Jan-95,24,1,Oregon
+Pacific,Golden State Warriorsÿ,Quinn Cook,#4,G,2-Jun,179 lbs,23-Mar-93,26,2,Duke
+Pacific,Golden State Warriorsÿ,Kevon Looney,#5,C-F,9-Jun,220 lbs,6-Feb-96,23,3,UCLA
+Pacific,Golden State Warriorsÿ,Andre Iguodala,#9,G-F,6-Jun,215 lbs,28-Jan-84,35,14,Arizona
+Pacific,Golden State Warriorsÿ,Jacob Evans,#10,G,6-Jun,210 lbs,18-Jun-97,21,R,Cincinnati
+Pacific,Golden State Warriorsÿ,Klay Thompson,#11,G,7-Jun,215 lbs,8-Feb-90,29,7,Washington State
+Pacific,Golden State Warriorsÿ,Andrew Bogut,#12,C,Jul-00,260 lbs,28-Nov-84,34,13,Utah
+Pacific,Golden State Warriorsÿ,Damian Jones,#15,C,Jul-00,245 lbs,30-Jun-95,23,2,Vanderbilt
+Pacific,Golden State Warriorsÿ,Jonas Jerebko,#21,F,10-Jun,231 lbs,2-Mar-87,32,8,"Kinna, Sweden"
+Pacific,Golden State Warriorsÿ,Draymond Green,#23,F,7-Jun,230 lbs,4-Mar-90,29,6,Michigan State
+Pacific,Golden State Warriorsÿ,Alfonzo McKinnie,#28,F,8-Jun,215 lbs,17-Sep-92,26,1,Wisc.-Green Bay
+Pacific,Golden State Warriorsÿ,Stephen Curry,#30,G,3-Jun,190 lbs,14-Mar-88,31,9,Davidson
+Pacific,Golden State Warriorsÿ,Marcus Derrickson,#32,F,7-Jun,249 lbs,1-Feb-96,23,R,
+Pacific,Golden State Warriorsÿ,Shaun Livingston,#34,G,7-Jun,192 lbs,11-Sep-85,33,13,Peoria Central HS (IL)
+Pacific,Golden State Warriorsÿ,Kevin Durant,#35,F,9-Jun,240 lbs,29-Sep-88,30,11,Texas
+Pacific,Los Angeles Clippers,Sindarius Thornwell,#0,G,5-Jun,215 lbs,15-Nov-94,24,1,South Carolina
+Pacific,Los Angeles Clippers,Shai Gilgeous-Alexander,#2,G,6-Jun,181 lbs,12-Jul-98,20,R,Kentucky
+Pacific,Los Angeles Clippers,JaMychal Green,#4,F,9-Jun,227 lbs,21-Jun-90,28,4,Alabama
+Pacific,Los Angeles Clippers,Montrezl Harrell,#5,F-C,8-Jun,240 lbs,26-Jan-94,25,3,Louisville
+Pacific,Los Angeles Clippers,Danilo Gallinari,#8,F,10-Jun,225 lbs,8-Aug-88,30,9,"Sant'Angelo Lodigiano, Italy"
+Pacific,Los Angeles Clippers,Tyrone Wallace,#9,G,5-Jun,198 lbs,10-Jun-94,24,1,California
+Pacific,Los Angeles Clippers,Jerome Robinson,#10,G,5-Jun,190 lbs,22-Feb-97,22,R,Boston College
+Pacific,Los Angeles Clippers,Justin Bibbs,#11,G,5-Jun,220 lbs,14-Jan-96,23,R,
+Pacific,Los Angeles Clippers,Johnathan Motley,#15,F,10-Jun,230 lbs,4-May-95,23,1,Baylor
+Pacific,Los Angeles Clippers,Garrett Temple,#17,G-F,6-Jun,195 lbs,8-May-86,32,8,Louisiana State
+Pacific,Los Angeles Clippers,Rodney McGruder,#19,F-G,4-Jun,200 lbs,29-Jul-91,27,2,Kansas State
+Pacific,Los Angeles Clippers,Landry Shamet,#20,G,5-Jun,188 lbs,13-Mar-97,22,R,Wichita State
+Pacific,Los Angeles Clippers,Patrick Beverley,#21,G,1-Jun,185 lbs,12-Jul-88,30,6,Arkansas
+Pacific,Los Angeles Clippers,Wilson Chandler,#22,F,9-Jun,225 lbs,10-May-87,31,10,DePaul
+Pacific,Los Angeles Clippers,Lou Williams,#23,G,1-Jun,175 lbs,27-Oct-86,32,13,South Gwinnett HS (GA)
+Pacific,Los Angeles Clippers,Angel Delgado,#31,C,10-Jun,245 lbs,20-Nov-94,24,R,
+Pacific,Los Angeles Clippers,Ivica Zubac,#40,C,1-Jul,240 lbs,18-Mar-97,22,2,
+Pacific,Los Angeles Lakers,Kyle Kuzma,#0,F,9-Jun,220 lbs,24-Jul-95,23,1,Utah
+Pacific,Los Angeles Lakers,Kentavious Caldwell-Pope,#1,G,5-Jun,205 lbs,18-Feb-93,26,5,Georgia
+Pacific,Los Angeles Lakers,Lonzo Ball,#2,G,6-Jun,190 lbs,27-Oct-97,21,1,California-Los Angeles
+Pacific,Los Angeles Lakers,Josh Hart,#3,G,5-Jun,215 lbs,6-Mar-95,24,1,Villanova
+Pacific,Los Angeles Lakers,Alex Caruso,#4,G,5-Jun,186 lbs,28-Feb-94,25,1,Texas A&M
+Pacific,Los Angeles Lakers,Tyson Chandler,#5,C,1-Jul,240 lbs,2-Oct-82,36,17,Dominquez H.S
+Pacific,Los Angeles Lakers,Lance Stephenson,#6,G,6-Jun,230 lbs,5-Sep-90,28,8,Cincinnati
+Pacific,Los Angeles Lakers,JaVale McGee,#7,C,Jul-00,270 lbs,19-Jan-88,31,10,Nevada
+Pacific,Los Angeles Lakers,Rajon Rondo,#9,G,1-Jun,186 lbs,22-Feb-86,33,12,Kentucky
+Pacific,Los Angeles Lakers,Jemerrio Jones,#10,F,5-Jun,174 lbs,9-Apr-95,24,R,
+Pacific,Los Angeles Lakers,Brandon Ingram,#14,F,9-Jun,190 lbs,2-Sep-97,21,2,Duke
+Pacific,Los Angeles Lakers,Moritz Wagner,#15,C,11-Jun,245 lbs,26-Apr-97,21,R,Michigan
+Pacific,Los Angeles Lakers,Isaac Bonga,#17,G,8-Jun,180 lbs,8-Nov-99,19,R,
+Pacific,Los Angeles Lakers,Johnathan Williams,#19,F,9-Jun,228 lbs,22-May-95,23,R,Gonzaga
+Pacific,Los Angeles Lakers,LeBron James,#23,F,8-Jun,250 lbs,30-Dec-84,34,15,St. Vincent-St. Mary HS (OH)
+Pacific,Los Angeles Lakers,Mike Muscala,#31,F-C,11-Jun,240 lbs,1-Jul-91,27,5,Bucknell
+Pacific,Los Angeles Lakers,Reggie Bullock,#35,G-F,7-Jun,205 lbs,16-Mar-91,28,5,North Carolina
+Pacific,Phoenix Suns,Devin Booker,#1,G,6-Jun,210 lbs,30-Oct-96,22,3,Kentucky
+Pacific,Phoenix Suns,Elie Okobo,#2,G,3-Jun,190 lbs,23-Oct-97,21,R,
+Pacific,Phoenix Suns,Kelly Oubre Jr.,#3,F,7-Jun,205 lbs,9-Dec-95,23,3,Kansas
+Pacific,Phoenix Suns,George King,#8,F,6-Jun,220 lbs,15-Jan-94,25,R,Colorado
+Pacific,Phoenix Suns,Jamal Crawford,#11,G,5-Jun,185 lbs,20-Mar-80,39,18,Michigan
+Pacific,Phoenix Suns,T.J. Warren,#12,F,8-Jun,215 lbs,5-Sep-93,25,4,North Carolina State
+Pacific,Phoenix Suns,De'Anthony Melton,#14,G,4-Jun,200 lbs,28-May-98,20,R,Southern California
+Pacific,Phoenix Suns,Tyler Johnson,#16,G,4-Jun,190 lbs,7-May-92,26,4,Fresno State
+Pacific,Phoenix Suns,Josh Jackson,#20,F,8-Jun,200 lbs,10-Feb-97,22,1,Kansas
+Pacific,Phoenix Suns,Richaun Holmes,#21,F-C,10-Jun,235 lbs,15-Oct-93,25,3,Bowling Green
+Pacific,Phoenix Suns,Deandre Ayton,#22,C,1-Jul,250 lbs,23-Jul-98,20,R,Arizona
+Pacific,Phoenix Suns,Mikal Bridges,#25,F,7-Jun,210 lbs,30-Aug-96,22,R,Villanova
+Pacific,Phoenix Suns,Ray Spalding,#26,F,10-Jun,215 lbs,11-Mar-97,22,R,Louisville
+Pacific,Phoenix Suns,Troy Daniels,#30,G,4-Jun,205 lbs,15-Jul-91,27,5,Virginia Commonwealth
+Pacific,Phoenix Suns,Jimmer Fredette,#32,G,2-Jun,195 lbs,25-Feb-89,30,5,Brigham Young
+Pacific,Phoenix Suns,Dragan Bender,#35,F,1-Jul,225 lbs,17-Nov-97,21,2,
+Pacific,Sacramento Kings,Willie Cauley-Stein,#00,C,Jul-00,240 lbs,18-Aug-93,25,3,Kentucky
+Pacific,Sacramento Kings,Yogi Ferrell,#3,G,Jun-00,180 lbs,9-May-93,25,2,Indiana
+Pacific,Sacramento Kings,De'Aaron Fox,#5,G,3-Jun,175 lbs,20-Dec-97,21,1,Kentucky
+Pacific,Sacramento Kings,Bogdan Bogdanovic,#8,G,6-Jun,205 lbs,18-Aug-92,26,1,
+Pacific,Sacramento Kings,BJ Johnson,#9,F,7-Jun,200 lbs,21-Dec-95,23,R,
+Pacific,Sacramento Kings,Frank Mason,#10,G,11-May,190 lbs,3-Apr-94,25,1,Kansas
+Pacific,Sacramento Kings,Alec Burks,#13,G,6-Jun,214 lbs,20-Jul-91,27,7,Colorado
+Pacific,Sacramento Kings,Troy Williams,#19,F,7-Jun,218 lbs,30-Dec-94,24,2,Indiana
+Pacific,Sacramento Kings,Harry Giles III,#20,F-C,10-Jun,240 lbs,22-Apr-98,20,R,Duke
+Pacific,Sacramento Kings,Cody Demps,#22,F,4-Jun,195 lbs,2-Dec-93,25,R,Sacramento State
+Pacific,Sacramento Kings,Buddy Hield,#24,G,4-Jun,214 lbs,17-Dec-92,26,2,Oklahoma
+Pacific,Sacramento Kings,Wenyen Gabriel,#32,F,9-Jun,205 lbs,26-Mar-97,22,R,
+Pacific,Sacramento Kings,Corey Brewer,#33,G-F,9-Jun,186 lbs,5-Mar-86,33,11,Florida
+Pacific,Sacramento Kings,Marvin Bagley III,#35,F,11-Jun,234 lbs,14-Mar-99,20,R,Duke
+Pacific,Sacramento Kings,Harrison Barnes,#40,F,8-Jun,225 lbs,30-May-92,26,6,North Carolina
+Pacific,Sacramento Kings,Kosta Koufos,#41,C,Jul-00,245 lbs,24-Feb-89,30,10,Ohio State
+Pacific,Sacramento Kings,Caleb Swanigan,#50,F,9-Jun,250 lbs,18-Apr-97,21,1,Purdue
+Pacific,Sacramento Kings,Nemanja Bjelica,#88,F,10-Jun,234 lbs,9-May-88,30,3,
+Southeast,Atlanta Hawks,Justin Anderson,#1,G-F,6-Jun,230 lbs,19-Nov-93,25,3,Virginia
+Southeast,Atlanta Hawks,Kevin Huerter,#3,G,7-Jun,190 lbs,27-Aug-98,20,R,Maryland
+Southeast,Atlanta Hawks,Deyonta Davis,#4,C-F,11-Jun,237 lbs,2-Dec-96,22,2,Michigan State
+Southeast,Atlanta Hawks,Omari Spellman,#6,F,9-Jun,245 lbs,21-Jul-97,21,R,Villanova
+Southeast,Atlanta Hawks,Isaac Humphries,#8,C,Jul-00,260 lbs,5-Jan-98,21,R,Kentucky
+Southeast,Atlanta Hawks,Jaylen Adams,#10,G,2-Jun,190 lbs,4-May-96,22,R,St. Bonaventure
+Southeast,Atlanta Hawks,Trae Young,#11,G,2-Jun,180 lbs,19-Sep-98,20,R,Oklahoma
+Southeast,Atlanta Hawks,Taurean Prince,#12,F,8-Jun,220 lbs,22-Mar-94,25,2,Baylor
+Southeast,Atlanta Hawks,Dewayne Dedmon,#14,C,Jul-00,245 lbs,12-Aug-89,29,5,Southern California
+Southeast,Atlanta Hawks,Vince Carter,#15,F-G,6-Jun,220 lbs,26-Jan-77,42,20,North Carolina
+Southeast,Atlanta Hawks,Miles Plumlee,#18,C,11-Jun,249 lbs,1-Sep-88,30,6,Duke
+Southeast,Atlanta Hawks,John Collins,#20,F-C,10-Jun,235 lbs,23-Sep-97,21,1,Wake Forest
+Southeast,Atlanta Hawks,Alex Poythress,#22,F,9-Jun,235 lbs,6-Sep-93,25,2,Kentucky
+Southeast,Atlanta Hawks,Kent Bazemore,#24,G,5-Jun,201 lbs,1-Jul-89,29,6,Old Dominion
+Southeast,Atlanta Hawks,Alex Len,#25,C,1-Jul,250 lbs,16-Jun-93,25,5,Maryland
+Southeast,Atlanta Hawks,DeAndre' Bembry,#95,F,6-Jun,210 lbs,4-Jul-94,24,2,Saint Joseph's
+Southeast,Charlotte Hornetsÿ,Miles Bridges,#0,F,7-Jun,225 lbs,21-Mar-98,21,R,Michigan State
+Southeast,Charlotte Hornetsÿ,Malik Monk,#1,G,3-Jun,200 lbs,4-Feb-98,21,1,Kentucky
+Southeast,Charlotte Hornetsÿ,Marvin Williams,#2,F,9-Jun,237 lbs,19-Jun-86,32,13,North Carolina
+Southeast,Charlotte Hornetsÿ,Jeremy Lamb,#3,G,5-Jun,185 lbs,30-May-92,26,6,Connecticut
+Southeast,Charlotte Hornetsÿ,Devonte' Graham,#4,G,2-Jun,185 lbs,22-Feb-95,24,R,Kansas
+Southeast,Charlotte Hornetsÿ,Nicolas Batum,#5,F-G,8-Jun,200 lbs,14-Dec-88,30,10,"Lisieux, France"
+Southeast,Charlotte Hornetsÿ,Shelvin Mack,#6,G,3-Jun,203 lbs,22-Apr-90,28,7,Butler
+Southeast,Charlotte Hornetsÿ,Dwayne Bacon,#7,G-F,7-Jun,221 lbs,30-Aug-95,23,1,Florida State
+Southeast,Charlotte Hornetsÿ,Bismack Biyombo,#8,C,9-Jun,255 lbs,28-Aug-92,26,7,"Lubumbashi, DR Congo"
+Southeast,Charlotte Hornetsÿ,Tony Parker,#9,G,2-Jun,185 lbs,17-May-82,36,17,"Paris, France"
+Southeast,Charlotte Hornetsÿ,Michael Kidd-Gilchrist,#14,F,7-Jun,232 lbs,26-Sep-93,25,6,Kentucky
+Southeast,Charlotte Hornetsÿ,Kemba Walker,#15,G,1-Jun,184 lbs,8-May-90,28,7,Connecticut
+Southeast,Charlotte Hornetsÿ,Joe Chealey,#31,G,3-Jun,190 lbs,1-Nov-95,23,R,Charleston (SC)
+Southeast,Charlotte Hornetsÿ,Cody Zeller,#40,C,Jul-00,240 lbs,5-Oct-92,26,5,Indiana
+Southeast,Charlotte Hornetsÿ,Willy Hernangomez,#41,C,11-Jun,240 lbs,27-May-94,24,2,Spain
+Southeast,Charlotte Hornetsÿ,Frank Kaminsky,#44,F-C,Jul-00,242 lbs,4-Apr-93,26,3,Wisconsin
+Southeast,Charlotte Hornetsÿ,J.P. Macura,#55,G,5-Jun,205 lbs,5-Jun-95,23,R,Xavier (Ohio)
+Southeast,Miami Heatÿ,Kendrick Nunn,#,G,3-Jun,184 lbs,3-Aug-95,23,R,Oakland University (MI)
+Southeast,Miami Heatÿ,Josh Richardson,#0,G-F,6-Jun,200 lbs,15-Sep-93,25,3,Tennessee
+Southeast,Miami Heatÿ,Yante Maten,#00,F,8-Jun,240 lbs,14-Aug-96,22,R,Georgia
+Southeast,Miami Heatÿ,Dwyane Wade,#3,G,4-Jun,220 lbs,17-Jan-82,37,15,Marquette
+Southeast,Miami Heatÿ,Derrick Jones Jr.,#5,F-G,7-Jun,200 lbs,15-Feb-97,22,2,Nevada-Las Vegas
+Southeast,Miami Heatÿ,Goran Dragic,#7,G,3-Jun,190 lbs,6-May-86,32,10,"Ljubljana, Slovenia"
+Southeast,Miami Heatÿ,Kelly Olynyk,#9,F,Jul-00,240 lbs,19-Apr-91,27,5,Gonzaga
+Southeast,Miami Heatÿ,Dion Waiters,#11,G,4-Jun,215 lbs,10-Dec-91,27,6,Syracuse
+Southeast,Miami Heatÿ,Bam Adebayo,#13,C-F,10-Jun,255 lbs,18-Jul-97,21,1,Kentucky
+Southeast,Miami Heatÿ,James Johnson,#16,F,8-Jun,240 lbs,20-Feb-87,32,9,Wake Forest
+Southeast,Miami Heatÿ,Justise Winslow,#20,F,7-Jun,225 lbs,26-Mar-96,23,3,Duke
+Southeast,Miami Heatÿ,Hassan Whiteside,#21,C,Jul-00,265 lbs,13-Jun-89,29,6,Marshall
+Southeast,Miami Heatÿ,Ryan Anderson,#31,F,10-Jun,240 lbs,6-May-88,30,10,California
+Southeast,Miami Heatÿ,Udonis Haslem,#40,F,8-Jun,235 lbs,9-Jun-80,38,15,Florida
+Southeast,Miami Heatÿ,Duncan Robinson,#55,F,8-Jun,210 lbs,22-Apr-94,24,R,Michigan
+Southeast,Orlando Magic,Aaron Gordon,#00,F,9-Jun,220 lbs,16-Sep-95,23,4,Arizona
+Southeast,Orlando Magic,Jonathan Isaac,#1,F,10-Jun,210 lbs,3-Oct-97,21,1,Florida State
+Southeast,Orlando Magic,Jarell Martin,#2,F,10-Jun,239 lbs,24-May-94,24,3,Louisiana State
+Southeast,Orlando Magic,Troy Caupain,#3,G,4-Jun,210 lbs,29-Nov-95,23,R,Cincinnati
+Southeast,Orlando Magic,Mo Bamba,#5,C,Jul-00,221 lbs,12-May-98,20,R,Texas
+Southeast,Orlando Magic,Michael Carter-Williams,#7,G,6-Jun,190 lbs,10-Oct-91,27,5,Syracuse
+Southeast,Orlando Magic,Nikola Vucevic,#9,C,Jul-00,260 lbs,24-Oct-90,28,7,Southern California
+Southeast,Orlando Magic,Evan Fournier,#10,G-F,7-Jun,205 lbs,29-Oct-92,26,6,France
+Southeast,Orlando Magic,Amile Jefferson,#11,F,9-Jun,222 lbs,7-May-93,25,R,Duke
+Southeast,Orlando Magic,D.J. Augustin,#14,G,Jun-00,183 lbs,10-Nov-87,31,10,Texas
+Southeast,Orlando Magic,Markelle Fultz,#20,G,4-Jun,200 lbs,29-May-98,20,1,Washington
+Southeast,Orlando Magic,Timofey Mozgov,#21,C,1-Jul,275 lbs,16-Jul-86,32,8,"St. Petersburg, Russia"
+Southeast,Orlando Magic,Jerian Grant,#22,G,4-Jun,205 lbs,9-Oct-92,26,3,Notre Dame
+Southeast,Orlando Magic,Khem Birch,#24,C,9-Jun,233 lbs,28-Sep-92,26,1,Nevada-Las Vegas
+Southeast,Orlando Magic,Wes Iwundu,#25,F,7-Jun,195 lbs,20-Dec-94,24,1,Kansas State
+Southeast,Orlando Magic,Terrence Ross,#31,G-F,7-Jun,206 lbs,5-Feb-91,28,6,Washington
+Southeast,Orlando Magic,Melvin Frazier Jr.,#35,G-F,6-Jun,200 lbs,30-Aug-96,22,R,Tulane
+Southeast,Washington Wizards,Trevor Ariza,#1,F,8-Jun,215 lbs,30-Jun-85,33,14,UCLA
+Southeast,Washington Wizards,John Wall,#2,G,4-Jun,210 lbs,6-Sep-90,28,8,Kentucky
+Southeast,Washington Wizards,Bradley Beal,#3,G,5-Jun,207 lbs,28-Jun-93,25,6,Florida
+Southeast,Washington Wizards,Wesley Johnson,#4,F-G,7-Jun,215 lbs,11-Jul-87,31,8,Syracuse
+Southeast,Washington Wizards,Bobby Portis,#5,F,11-Jun,250 lbs,10-Feb-95,24,3,Arkansas
+Southeast,Washington Wizards,Troy Brown Jr.,#6,F,7-Jun,215 lbs,28-Jul-99,19,R,Oregon
+Southeast,Washington Wizards,Devin Robinson,#7,F,8-Jun,200 lbs,7-Mar-95,24,1,Florida
+Southeast,Washington Wizards,Sam Dekker,#8,F,9-Jun,230 lbs,8-May-94,24,3,Wisconsin
+Southeast,Washington Wizards,Chasson Randle,#9,G,2-Jun,185 lbs,5-Feb-93,26,1,Stanford
+Southeast,Washington Wizards,Jabari Parker,#12,F,8-Jun,245 lbs,15-Mar-95,24,4,Duke
+Southeast,Washington Wizards,Thomas Bryant,#13,C,11-Jun,248 lbs,31-Jul-97,21,1,Indiana
+Southeast,Washington Wizards,Dwight Howard,#21,C,11-Jun,265 lbs,8-Dec-85,33,14,SW Atlanta Christian Academy (GA)
+Southeast,Washington Wizards,Tarik Phillip,#22,G,3-Jun,195 lbs,10-Aug-93,25,R,
+Southeast,Washington Wizards,Ian Mahinmi,#28,C,11-Jun,262 lbs,5-Nov-86,32,10,"Rouen, France"
+Southeast,Washington Wizards,Tomas Satoransky,#31,G-F,7-Jun,210 lbs,30-Oct-91,27,2,
+Southeast,Washington Wizards,Jeff Green,#32,F,9-Jun,235 lbs,28-Aug-86,32,10,Georgetown
+Southeast,Washington Wizards,Jordan McRae,#52,G,5-Jun,179 lbs,28-Mar-91,28,2,Tennessee
+Southwest,Dallas Mavericks,Courtney Lee,#1,G,5-Jun,215 lbs,3-Oct-85,33,10,Western Kentucky
+Southwest,Dallas Mavericks,Daryl Macon,#3,G,3-Jun,185 lbs,29-Nov-95,23,R,Arkansas
+Southwest,Dallas Mavericks,J.J. Barea,#5,G,Jun-00,185 lbs,26-Jun-84,34,12,Northeastern
+Southwest,Dallas Mavericks,Kristaps Porzingis,#6,F-C,3-Jul,240 lbs,2-Aug-95,23,3,
+Southwest,Dallas Mavericks,Dwight Powell,#7,F-C,11-Jun,240 lbs,20-Jul-91,27,4,Stanford
+Southwest,Dallas Mavericks,Dorian Finney-Smith,#10,F,8-Jun,220 lbs,4-May-93,25,2,Florida
+Southwest,Dallas Mavericks,Tim Hardaway Jr.,#11,G,6-Jun,205 lbs,16-Mar-92,27,5,Michigan
+Southwest,Dallas Mavericks,Jalen Brunson,#13,G,3-Jun,190 lbs,31-Aug-96,22,R,Villanova
+Southwest,Dallas Mavericks,Trey Burke,#23,G,1-Jun,175 lbs,12-Nov-92,26,5,Michigan
+Southwest,Dallas Mavericks,Devin Harris,#34,G,3-Jun,185 lbs,27-Feb-83,36,14,Wisconsin
+Southwest,Dallas Mavericks,Kostas Antetokounmpo,#37,F,10-Jun,200 lbs,20-Nov-97,21,R,Dayton
+Southwest,Dallas Mavericks,Dirk Nowitzki,#41,F,Jul-00,245 lbs,19-Jun-78,40,20,"Wurzburg, Germany"
+Southwest,Dallas Mavericks,Maxi Kleber,#42,F,11-Jun,240 lbs,29-Jan-92,27,1,
+Southwest,Dallas Mavericks,Justin Jackson,#44,F,8-Jun,210 lbs,28-Mar-95,24,1,North Carolina
+Southwest,Dallas Mavericks,Ryan Broekhoff,#45,G-F,7-Jun,215 lbs,23-Aug-90,28,R,
+Southwest,Dallas Mavericks,Salah Mejri,#50,C,2-Jul,235 lbs,15-Jun-86,32,3,
+Southwest,Dallas Mavericks,Luka Doncic,#77,F-G,7-Jun,218 lbs,28-Feb-99,20,R,
+Southwest,Houston Rockets,Trevon Duval,#0,G,2-Jun,189 lbs,3-Aug-98,20,R,
+Southwest,Houston Rockets,Iman Shumpert,#1,G,5-Jun,215 lbs,26-Jun-90,28,7,Georgia Tech
+Southwest,Houston Rockets,Chris Chiozza,#2,G,Jun-00,175 lbs,21-Nov-95,23,R,
+Southwest,Houston Rockets,Chris Paul,#3,G,Jun-00,175 lbs,6-May-85,33,13,Wake Forest
+Southwest,Houston Rockets,Danuel House Jr.,#4,F-G,7-Jun,220 lbs,7-Jun-93,25,2,Texas A&M
+Southwest,Houston Rockets,Gary Clark,#6,F,8-Jun,225 lbs,16-Nov-94,24,R,
+Southwest,Houston Rockets,Eric Gordon,#10,G,4-Jun,215 lbs,25-Dec-88,30,10,Indiana
+Southwest,Houston Rockets,Vincent Edwards,#12,F,8-Jun,225 lbs,5-Apr-96,23,R,Purdue
+Southwest,Houston Rockets,James Harden,#13,G,5-Jun,220 lbs,26-Aug-89,29,9,Arizona State
+Southwest,Houston Rockets,Gerald Green,#14,G-F,7-Jun,205 lbs,26-Jan-86,33,11,Gulf Shores Aca. (TX)
+Southwest,Houston Rockets,Clint Capela,#15,C,10-Jun,240 lbs,18-May-94,24,4,
+Southwest,Houston Rockets,PJ Tucker,#17,F,6-Jun,245 lbs,5-May-85,33,7,Texas
+Southwest,Houston Rockets,Michael Frazier,#21,G,4-Jun,200 lbs,8-Mar-94,25,R,Florida
+Southwest,Houston Rockets,Austin Rivers,#25,G,4-Jun,200 lbs,1-Aug-92,26,6,Duke
+Southwest,Houston Rockets,Kenneth Faried,#35,F-C,8-Jun,220 lbs,19-Nov-89,29,7,Morehead State
+Southwest,Houston Rockets,Nene,#42,C-F,11-Jun,250 lbs,13-Sep-82,36,16,"Sao Carlos, Brazil"
+Southwest,Houston Rockets,Isaiah Hartenstein,#55,F-C,Jul-00,249 lbs,5-May-98,20,R,
+Southwest,Memphis Grizzlies,Avery Bradley,#0,G,2-Jun,180 lbs,26-Nov-90,28,8,Texas
+Southwest,Memphis Grizzlies,Kyle Anderson,#1,F,9-Jun,230 lbs,20-Sep-93,25,4,UCLA
+Southwest,Memphis Grizzlies,Delon Wright,#2,G,5-Jun,183 lbs,26-Apr-92,26,3,Utah
+Southwest,Memphis Grizzlies,Jevon Carter,#3,G,2-Jun,196 lbs,14-Sep-95,23,R,West Virginia
+Southwest,Memphis Grizzlies,Julian Washburn,#4,F-G,8-Jun,209 lbs,18-Dec-91,27,R,Texas-El Paso
+Southwest,Memphis Grizzlies,Bruno Caboclo,#5,F,9-Jun,218 lbs,21-Sep-95,23,4,
+Southwest,Memphis Grizzlies,CJ Miles,#6,F-G,6-Jun,220 lbs,18-Mar-87,32,13,Skyline HS (TX)
+Southwest,Memphis Grizzlies,Justin Holiday,#7,F-G,6-Jun,181 lbs,5-Apr-89,30,5,Washington
+Southwest,Memphis Grizzlies,Ivan Rabb,#10,F,10-Jun,220 lbs,4-Feb-97,22,1,California
+Southwest,Memphis Grizzlies,Mike Conley,#11,G,1-Jun,175 lbs,11-Oct-87,31,11,Ohio State
+Southwest,Memphis Grizzlies,Yuta Watanabe,#12,G,9-Jun,205 lbs,13-Oct-94,24,R,George Washington
+Southwest,Memphis Grizzlies,Jaren Jackson Jr.,#13,F-C,11-Jun,242 lbs,15-Sep-99,19,R,Michigan State
+Southwest,Memphis Grizzlies,Jonas Valanciunas,#17,C,Jul-00,265 lbs,6-May-92,26,6,"Utena, Lithuania"
+Southwest,Memphis Grizzlies,Tyler Dorsey,#22,G,5-Jun,183 lbs,18-Feb-96,23,1,Oregon
+Southwest,Memphis Grizzlies,Dillon Brooks,#24,G-F,6-Jun,220 lbs,22-Jan-96,23,1,Oregon
+Southwest,Memphis Grizzlies,Chandler Parsons,#25,F,10-Jun,230 lbs,25-Oct-88,30,7,Florida
+Southwest,Memphis Grizzlies,Tyler Zeller,#45,C,Jul-00,253 lbs,17-Jan-90,29,6,North Carolina
+Southwest,Memphis Grizzlies,Joakim Noah,#55,C,11-Jun,230 lbs,25-Feb-85,34,11,Florida
+Southwest,New Orleans Pelicans,Ian Clark,#2,G,3-Jun,175 lbs,7-Mar-91,28,5,Belmont
+Southwest,New Orleans Pelicans,Stanley Johnson,#3,F,7-Jun,245 lbs,29-May-96,22,3,Arizona
+Southwest,New Orleans Pelicans,Elfrid Payton,#4,G,4-Jun,185 lbs,22-Feb-94,25,4,Louisiana-Lafayette
+Southwest,New Orleans Pelicans,Trevon Bluiett,#5,G-F,6-Jun,198 lbs,4-Nov-94,24,R,Xavier (Ohio)
+Southwest,New Orleans Pelicans,Jahlil Okafor,#8,C,11-Jun,275 lbs,15-Dec-95,23,3,Duke
+Southwest,New Orleans Pelicans,Dairis Bertans,#9,G,4-Jun,200 lbs,9-Sep-89,29,R,
+Southwest,New Orleans Pelicans,Jrue Holiday,#11,G,4-Jun,205 lbs,12-Jun-90,28,9,UCLA
+Southwest,New Orleans Pelicans,Cheick Diallo,#13,F,9-Jun,220 lbs,13-Sep-96,22,2,Kansas
+Southwest,New Orleans Pelicans,Frank Jackson,#15,G,3-Jun,205 lbs,4-May-98,20,R,Duke
+Southwest,New Orleans Pelicans,Darius Miller,#21,F,8-Jun,225 lbs,21-Mar-90,29,4,Kentucky
+Southwest,New Orleans Pelicans,Anthony Davis,#23,F-C,10-Jun,253 lbs,11-Mar-93,26,6,Kentucky
+Southwest,New Orleans Pelicans,Julius Randle,#30,C-F,9-Jun,250 lbs,29-Nov-94,24,4,Kentucky
+Southwest,New Orleans Pelicans,Kenrich Williams,#34,G-F,7-Jun,210 lbs,2-Dec-94,24,R,
+Southwest,New Orleans Pelicans,Christian Wood,#35,F,10-Jun,214 lbs,27-Sep-95,23,2,Nevada-Las Vegas
+Southwest,New Orleans Pelicans,Solomon Hill,#44,F,7-Jun,225 lbs,18-Mar-91,28,5,Arizona
+Southwest,New Orleans Pelicans,E'Twaun Moore,#55,G,4-Jun,191 lbs,25-Feb-89,30,7,Purdue
+Southwest,San Antonio Spurs,Lonnie Walker IV,#1,G,5-Jun,205 lbs,14-Dec-98,20,R,Miami (FL)
+Southwest,San Antonio Spurs,Quincy Pondexter,#3,F,7-Jun,230 lbs,10-Mar-88,31,6,Washington
+Southwest,San Antonio Spurs,Derrick White,#4,G,4-Jun,190 lbs,2-Jul-94,24,1,Colorado
+Southwest,San Antonio Spurs,Dejounte Murray,#5,G,5-Jun,170 lbs,19-Sep-96,22,2,Washington
+Southwest,San Antonio Spurs,Chimezie Metu,#7,F,10-Jun,225 lbs,22-Mar-97,22,R,Southern California
+Southwest,San Antonio Spurs,Patty Mills,#8,G,Jun-00,180 lbs,11-Aug-88,30,9,Saint Mary's (CA)
+Southwest,San Antonio Spurs,DeMar DeRozan,#10,G,7-Jun,220 lbs,7-Aug-89,29,9,Southern California
+Southwest,San Antonio Spurs,Bryn Forbes,#11,G,3-Jun,190 lbs,23-Jul-93,25,2,Michigan State
+Southwest,San Antonio Spurs,LaMarcus Aldridge,#12,C-F,11-Jun,260 lbs,19-Jul-85,33,12,Texas
+Southwest,San Antonio Spurs,Drew Eubanks,#14,F,10-Jun,245 lbs,1-Feb-97,22,R,
+Southwest,San Antonio Spurs,Marco Belinelli,#18,G-F,5-Jun,210 lbs,25-Mar-86,33,11,"Bologna, Italy"
+Southwest,San Antonio Spurs,Rudy Gay,#22,F,8-Jun,230 lbs,17-Aug-86,32,12,Connecticut
+Southwest,San Antonio Spurs,Jakob Poeltl,#25,C,Jul-00,230 lbs,15-Oct-95,23,2,Utah
+Southwest,San Antonio Spurs,Ben Moore,#26,F,8-Jun,220 lbs,13-May-95,23,1,Southern Methodist
+Southwest,San Antonio Spurs,Donatas Motiejunas,#28,F-C,Jul-00,220 lbs,20-Sep-90,28,5,"Kaunas, Lithuania"
+Southwest,San Antonio Spurs,Dante Cunningham,#33,F,8-Jun,230 lbs,22-Apr-87,31,9,Villanova
+Southwest,San Antonio Spurs,Davis Bertans,#42,F,10-Jun,225 lbs,12-Nov-92,26,2,
