@@ -43,7 +43,7 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: "Helvetica Neue", Roboto, Arial, "Droid Sans", sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -4883,11 +4883,11 @@ input[type="button"].btn-block {
   border-bottom-left-radius: 0.35rem;
 }
 
+/*edited*/
 .card-body {
   -webkit-box-flex: 1;
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
-  padding: 1.25rem;
 }
 
 .card-title {

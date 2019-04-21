@@ -2333,8 +2333,9 @@ select.parsley-error {
     color: #3399ff;
     font-weight: bolder
 }
+/*edit*/
 .btn {
-    border-radius: 3px
+    border-radius: 0.35rem;
 }
 a.btn-success,
 a.btn-primary,

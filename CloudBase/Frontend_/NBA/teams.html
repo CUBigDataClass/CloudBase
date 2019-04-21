@@ -19,6 +19,8 @@
 
     <!-- Custom styles for this template-->
     <link href="css/nba-teams.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/nba-admin-2.css" rel="stylesheet">
 
 </head>
 
@@ -26,87 +28,40 @@
 
     <!-- Page Wrapper -->
     <div id="wrapper">
-        <!-- Sidebar -->
-        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
-            <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-                <div class="sidebar-brand-icon rotate-n-15">
-                    <i class="fas fa-laugh-wink"></i>
-                </div>
-                <div class="sidebar-brand-text mx-3">NBA Analysis</div>
-            </a>
-
-            <!-- Divider -->
-            <hr class="sidebar-divider my-0">
-
-            <!-- Nav Item - Dashboard -->
-            <li class="nav-item active">
-                <a class="nav-link" href="index.html">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Dashboard</span></a>
-                <a class="nav-link" href="teams.html">
-                    <i class="fas fa-users"></i>
-                    <span>Teams</span></a>
-            </li>
-
-            <!-- Divider -->
-            <hr class="sidebar-divider d-none d-md-block">
-
-            <!-- Sidebar Toggler (Sidebar) -->
-            <div class="text-center d-none d-md-inline">
-                <button class="rounded-circle border-0" id="sidebarToggle"></button>
-            </div>
-
-        </ul>
-        <!-- End of Sidebar -->
-
         <!-- Content Wrapper -->
         <div id="content-wrapper" class="d-flex flex-column">
             <!-- Main Content -->
             <div id="content">
-                <!-- Topbar -->
+            <!--================================================
+                NAVBAR
+            =================================================-->
                 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
-
-                    <!-- Sidebar Toggle (Topbar) -->
-                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
-                        <i class="fa fa-bars"></i>
+                    <a class="navbar-brand " href="#"><strong>NBA Statistics</strong></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
                     </button>
-
-                    <!-- Topbar Search -->
-                    <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
-                        <div class="input-group">
-                            <input type="text" class="form-control bg-light border-0 small" placeholder="Search teams..." aria-label="Search" aria-describedby="basic-addon2">
-                            <div class="input-group-append">
-                                <button class="btn btn-primary" type="button">
-                                    <i class="fas fa-search fa-sm"></i>
-                                </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <!-- Links Left-->
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item"><a class="nav-link" href="teams.html">All Teams</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#roster">Team Roster</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#info">Team Information</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#info">Team Feed</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                        </ul>
+                        <!-- Links Right-->
+                        <span class="navbar-nav form-inline">
+                            <div class="input-group">
+                                <input type="text" class="form-control bg-light border-0 small" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2">
+                                <div class="input-group-append">
+                                    <button class="btn btn-primary" type="button">
+                                        <i class="fas fa-search fa-sm"></i>
+                                    </button>
+                                </div>
                             </div>
-                        </div>
-                    </form>
-                    <!-- Topbar Navbar -->
-                    <ul class="navbar-nav ml-auto">
-                        <!-- Nav Item - Search Dropdown (Visible Only XS) -->
-                        <li class="nav-item dropdown no-arrow d-sm-none">
-                            <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="fas fa-search fa-fw"></i>
-                            </a>
-                            <!-- Dropdown - Messages -->
-                            <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in" aria-labelledby="searchDropdown">
-                                <form class="form-inline mr-auto w-100 navbar-search">
-                                    <div class="input-group">
-                                        <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
-                                        <div class="input-group-append">
-                                            <button class="btn btn-primary" type="button">
-                                                <i class="fas fa-search fa-sm"></i>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </li>
-                    </ul>
+                        </span>
+                    </div>
                 </nav>
-                <!-- End of Topbar -->
 
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
@@ -117,420 +72,421 @@
                     <!-- Content Row -->
                     <div class="row">
                         <!-- Team Card -->
-                        <div class="col-xl-3 col-lg-5">
+                        <div class="col-xl-2 col-lg-5">
                             <div class="card shadow mb-4">
                                 <!-- Card Header - Dropdown -->
                                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                                     <h6 class="m-0 font-weight-bold text-primary">Atlanta Hawks</h6>
                                 </div>
                                 <!-- Card Body -->
-                                <div class="card-body">
+                                <div class="team-card-body">
                                     <div class="team-box">
                                         <a href="https://www.w3schools.com"><img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="img/ATL.svg" alt="" href="https://fontawesome.com/icons/users?style=solid"></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-5">
+                        <div class="col-xl-2 col-lg-5">
                             <div class="card shadow mb-4">
                                 <!-- Card Header - Dropdown -->
                                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                                     <h6 class="m-0 font-weight-bold text-primary">Boston Celtics</h6>
                                 </div>
                                 <!-- Card Body -->
-                                <div class="card-body">
+                                <div class="team-card-body">
                                     <div class="team-box">
                                         <a href="https://www.w3schools.com"><img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="img/BOS.svg" alt="" href="https://fontawesome.com/icons/users?style=solid"></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-5">
+                        <div class="col-xl-2 col-lg-5">
                             <div class="card shadow mb-4">
                                 <!-- Card Header - Dropdown -->
                                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                                     <h6 class="m-0 font-weight-bold text-primary">Brooklyn Nets</h6>
                                 </div>
                                 <!-- Card Body -->
-                                <div class="card-body">
+                                <div class="team-card-body">
                                     <div class="team-box">
                                         <a href="https://www.w3schools.com"><img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="img/BKN.svg" alt="" href="https://fontawesome.com/icons/users?style=solid"></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-5">
+                        <div class="col-xl-2 col-lg-5">
                             <div class="card shadow mb-4">
                                 <!-- Card Header - Dropdown -->
                                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                                     <h6 class="m-0 font-weight-bold text-primary">Charlotte Hornets</h6>
                                 </div>
+                                
                                 <!-- Card Body -->
-                                <div class="card-body">
+                                <div class="team-card-body">
                                     <div class="team-box">
                                         <a href="https://www.w3schools.com"><img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="img/CHA.svg" alt="" href="https://fontawesome.com/icons/users?style=solid"></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-5">
+                        <div class="col-xl-2 col-lg-5">
                             <div class="card shadow mb-4">
                                 <!-- Card Header - Dropdown -->
                                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                                     <h6 class="m-0 font-weight-bold text-primary">Chicago Bulls</h6>
                                 </div>
                                 <!-- Card Body -->
-                                <div class="card-body">
+                                <div class="team-card-body">
                                     <div class="team-box">
                                         <a href="https://www.w3schools.com"><img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="img/CHI.svg" alt="" href="https://fontawesome.com/icons/users?style=solid"></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-5">
+                        <div class="col-xl-2 col-lg-5">
                             <div class="card shadow mb-4">
                                 <!-- Card Header - Dropdown -->
                                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                                     <h6 class="m-0 font-weight-bold text-primary">Cleveland Cavaliers</h6>
                                 </div>
                                 <!-- Card Body -->
-                                <div class="card-body">
+                                <div class="team-card-body">
                                     <div class="team-box">
                                         <a href="https://www.w3schools.com"><img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="img/CLE.svg" alt="" href="https://fontawesome.com/icons/users?style=solid"></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-5">
+                        <div class="col-xl-2 col-lg-5">
                             <div class="card shadow mb-4">
                                 <!-- Card Header - Dropdown -->
                                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                                     <h6 class="m-0 font-weight-bold text-primary">Dallas Mavericks</h6>
                                 </div>
                                 <!-- Card Body -->
-                                <div class="card-body">
+                                <div class="team-card-body">
                                     <div class="team-box">
                                         <a href="https://www.w3schools.com"><img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="img/DAL.svg" alt="" href="https://fontawesome.com/icons/users?style=solid"></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-5">
+                        <div class="col-xl-2 col-lg-5">
                             <div class="card shadow mb-4">
                                 <!-- Card Header - Dropdown -->
                                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                                     <h6 class="m-0 font-weight-bold text-primary">Denver Nuggets</h6>
                                 </div>
                                 <!-- Card Body -->
-                                <div class="card-body">
+                                <div class="team-card-body">
                                     <div class="team-box">
                                         <a href="https://www.w3schools.com"><img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="img/DEN.svg" alt="" href="https://fontawesome.com/icons/users?style=solid"></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-5">
+                        <div class="col-xl-2 col-lg-5">
                             <div class="card shadow mb-4">
                                 <!-- Card Header - Dropdown -->
                                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                                     <h6 class="m-0 font-weight-bold text-primary">Detroit Pistons</h6>
                                 </div>
                                 <!-- Card Body -->
-                                <div class="card-body">
+                                <div class="team-card-body">
                                     <div class="team-box">
                                         <a href="https://www.w3schools.com"><img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="img/DET.svg" alt="" href="https://fontawesome.com/icons/users?style=solid"></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-5">
+                        <div class="col-xl-2 col-lg-5">
                             <div class="card shadow mb-4">
                                 <!-- Card Header - Dropdown -->
                                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                                     <h6 class="m-0 font-weight-bold text-primary">Golden State Warriors</h6>
                                 </div>
                                 <!-- Card Body -->
-                                <div class="card-body">
+                                <div class="team-card-body">
                                     <div class="team-box">
                                         <a href="https://www.w3schools.com"><img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="img/GSW.svg" alt="" href="https://fontawesome.com/icons/users?style=solid"></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-5">
+                        <div class="col-xl-2 col-lg-5">
                             <div class="card shadow mb-4">
                                 <!-- Card Header - Dropdown -->
                                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                                     <h6 class="m-0 font-weight-bold text-primary">Houston Rockets</h6>
                                 </div>
                                 <!-- Card Body -->
-                                <div class="card-body">
+                                <div class="team-card-body">
                                     <div class="team-box">
                                         <a href="https://www.w3schools.com"><img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="img/HOU.svg" alt="" href="https://fontawesome.com/icons/users?style=solid"></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-5">
+                        <div class="col-xl-2 col-lg-5">
                             <div class="card shadow mb-4">
                                 <!-- Card Header - Dropdown -->
                                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                                     <h6 class="m-0 font-weight-bold text-primary">Indiana Pacers</h6>
                                 </div>
                                 <!-- Card Body -->
-                                <div class="card-body">
+                                <div class="team-card-body">
                                     <div class="team-box">
                                         <a href="https://www.w3schools.com"><img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="img/IND.svg" alt="" href="https://fontawesome.com/icons/users?style=solid"></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-5">
+                        <div class="col-xl-2 col-lg-5">
                             <div class="card shadow mb-4">
                                 <!-- Card Header - Dropdown -->
                                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                                     <h6 class="m-0 font-weight-bold text-primary">LA Clippers</h6>
                                 </div>
                                 <!-- Card Body -->
-                                <div class="card-body">
+                                <div class="team-card-body">
                                     <div class="team-box">
                                         <a href="https://www.w3schools.com"><img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="img/LAC.svg" alt="" href="https://fontawesome.com/icons/users?style=solid"></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-5">
+                        <div class="col-xl-2 col-lg-5">
                             <div class="card shadow mb-4">
                                 <!-- Card Header - Dropdown -->
                                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                                     <h6 class="m-0 font-weight-bold text-primary">Los Angeles Lakers</h6>
                                 </div>
                                 <!-- Card Body -->
-                                <div class="card-body">
+                                <div class="team-card-body">
                                     <div class="team-box">
                                         <a href="https://www.w3schools.com"><img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="img/LAL.svg" alt="" href="https://fontawesome.com/icons/users?style=solid"></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-5">
+                        <div class="col-xl-2 col-lg-5">
                             <div class="card shadow mb-4">
                                 <!-- Card Header - Dropdown -->
                                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                                     <h6 class="m-0 font-weight-bold text-primary">Memphis Grizzlies</h6>
                                 </div>
                                 <!-- Card Body -->
-                                <div class="card-body">
+                                <div class="team-card-body">
                                     <div class="team-box">
                                         <a href="https://www.w3schools.com"><img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="img/MEM.svg" alt="" href="https://fontawesome.com/icons/users?style=solid"></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-5">
+                        <div class="col-xl-2 col-lg-5">
                             <div class="card shadow mb-4">
                                 <!-- Card Header - Dropdown -->
                                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                                     <h6 class="m-0 font-weight-bold text-primary">Miami Heat</h6>
                                 </div>
                                 <!-- Card Body -->
-                                <div class="card-body">
+                                <div class="team-card-body">
                                     <div class="team-box">
                                         <a href="https://www.w3schools.com"><img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="img/MIA.svg" alt="" href="https://fontawesome.com/icons/users?style=solid"></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-5">
+                        <div class="col-xl-2 col-lg-5">
                             <div class="card shadow mb-4">
                                 <!-- Card Header - Dropdown -->
                                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                                     <h6 class="m-0 font-weight-bold text-primary">Milwaukee Bucks</h6>
                                 </div>
                                 <!-- Card Body -->
-                                <div class="card-body">
+                                <div class="team-card-body">
                                     <div class="team-box">
                                         <a href="https://www.w3schools.com"><img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="img/MIL.svg" alt="" href="https://fontawesome.com/icons/users?style=solid"></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-5">
+                        <div class="col-xl-2 col-lg-5">
                             <div class="card shadow mb-4">
                                 <!-- Card Header - Dropdown -->
                                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                                     <h6 class="m-0 font-weight-bold text-primary">Minnesota Timberwolves</h6>
                                 </div>
                                 <!-- Card Body -->
-                                <div class="card-body">
+                                <div class="team-card-body">
                                     <div class="team-box">
                                         <a href="https://www.w3schools.com"><img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="img/MIN.svg" alt="" href="https://fontawesome.com/icons/users?style=solid"></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-5">
+                        <div class="col-xl-2 col-lg-5">
                             <div class="card shadow mb-4">
                                 <!-- Card Header - Dropdown -->
                                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                                     <h6 class="m-0 font-weight-bold text-primary">New Orleans Pelicans</h6>
                                 </div>
                                 <!-- Card Body -->
-                                <div class="card-body">
+                                <div class="team-card-body">
                                     <div class="team-box">
                                         <a href="https://www.w3schools.com"><img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="img/NOP.svg" alt="" href="https://fontawesome.com/icons/users?style=solid"></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-5">
+                        <div class="col-xl-2 col-lg-5">
                             <div class="card shadow mb-4">
                                 <!-- Card Header - Dropdown -->
                                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                                     <h6 class="m-0 font-weight-bold text-primary">New York Knicks</h6>
                                 </div>
                                 <!-- Card Body -->
-                                <div class="card-body">
+                                <div class="team-card-body">
                                     <div class="team-box">
                                         <a href="https://www.w3schools.com"><img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="img/NYK.svg" alt="" href="https://fontawesome.com/icons/users?style=solid"></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-5">
+                        <div class="col-xl-2 col-lg-5">
                             <div class="card shadow mb-4">
                                 <!-- Card Header - Dropdown -->
                                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                                     <h6 class="m-0 font-weight-bold text-primary">Oklahoma City Thunder</h6>
                                 </div>
                                 <!-- Card Body -->
-                                <div class="card-body">
+                                <div class="team-card-body">
                                     <div class="team-box">
                                         <a href="https://www.w3schools.com"><img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="img/OKC.svg" alt="" href="https://fontawesome.com/icons/users?style=solid"></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-5">
+                        <div class="col-xl-2 col-lg-5">
                             <div class="card shadow mb-4">
                                 <!-- Card Header - Dropdown -->
                                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                                     <h6 class="m-0 font-weight-bold text-primary">Orlando Magic</h6>
                                 </div>
                                 <!-- Card Body -->
-                                <div class="card-body">
+                                <div class="team-card-body">
                                     <div class="team-box">
                                         <a href="https://www.w3schools.com"><img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="img/ORL.svg" alt="" href="https://fontawesome.com/icons/users?style=solid"></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-5">
+                        <div class="col-xl-2 col-lg-5">
                             <div class="card shadow mb-4">
                                 <!-- Card Header - Dropdown -->
                                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                                     <h6 class="m-0 font-weight-bold text-primary">Philadelphia 76ers</h6>
                                 </div>
                                 <!-- Card Body -->
-                                <div class="card-body">
+                                <div class="team-card-body">
                                     <div class="team-box">
                                         <a href="https://www.w3schools.com"><img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="img/PHI.svg" alt="" href="https://fontawesome.com/icons/users?style=solid"></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-5">
+                        <div class="col-xl-2 col-lg-5">
                             <div class="card shadow mb-4">
                                 <!-- Card Header - Dropdown -->
                                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                                     <h6 class="m-0 font-weight-bold text-primary">Phoenix Suns</h6>
                                 </div>
                                 <!-- Card Body -->
-                                <div class="card-body">
+                                <div class="team-card-body">
                                     <div class="team-box">
                                         <a href="https://www.w3schools.com"><img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="img/PHX.svg" alt="" href="https://fontawesome.com/icons/users?style=solid"></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-5">
+                        <div class="col-xl-2 col-lg-5">
                             <div class="card shadow mb-4">
                                 <!-- Card Header - Dropdown -->
                                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                                     <h6 class="m-0 font-weight-bold text-primary">Portland Trail Blazers</h6>
                                 </div>
                                 <!-- Card Body -->
-                                <div class="card-body">
+                                <div class="team-card-body">
                                     <div class="team-box">
                                         <a href="https://www.w3schools.com"><img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="img/POR.svg" alt="" href="https://fontawesome.com/icons/users?style=solid"></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-5">
+                        <div class="col-xl-2 col-lg-5">
                             <div class="card shadow mb-4">
                                 <!-- Card Header - Dropdown -->
                                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                                     <h6 class="m-0 font-weight-bold text-primary">Sacramento Kings</h6>
                                 </div>
                                 <!-- Card Body -->
-                                <div class="card-body">
+                                <div class="team-card-body">
                                     <div class="team-box">
                                         <a href="https://www.w3schools.com"><img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="img/SAC.svg" alt="" href="https://fontawesome.com/icons/users?style=solid"></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-5">
+                        <div class="col-xl-2 col-lg-5">
                             <div class="card shadow mb-4">
                                 <!-- Card Header - Dropdown -->
                                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                                     <h6 class="m-0 font-weight-bold text-primary">San Antonio Spurs</h6>
                                 </div>
                                 <!-- Card Body -->
-                                <div class="card-body">
+                                <div class="team-card-body">
                                     <div class="team-box">
                                         <a href="https://www.w3schools.com"><img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="img/SAS.svg" alt="" href="https://fontawesome.com/icons/users?style=solid"></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-5">
+                        <div class="col-xl-2 col-lg-5">
                             <div class="card shadow mb-4">
                                 <!-- Card Header - Dropdown -->
                                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                                     <h6 class="m-0 font-weight-bold text-primary">Toronto Raptors</h6>
                                 </div>
                                 <!-- Card Body -->
-                                <div class="card-body">
+                                <div class="team-card-body">
                                     <div class="team-box">
                                         <a href="https://www.w3schools.com"><img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="img/TOR.svg" alt="" href="https://fontawesome.com/icons/users?style=solid"></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-5">
+                        <div class="col-xl-2 col-lg-5">
                             <div class="card shadow mb-4">
                                 <!-- Card Header - Dropdown -->
                                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                                     <h6 class="m-0 font-weight-bold text-primary">Utah Jazz</h6>
                                 </div>
                                 <!-- Card Body -->
-                                <div class="card-body">
+                                <div class="team-card-body">
                                     <div class="team-box">
                                         <a href="https://www.w3schools.com"><img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="img/UTA.svg" alt="" href="https://fontawesome.com/icons/users?style=solid"></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-5">
+                        <div class="col-xl-2 col-lg-5">
                             <div class="card shadow mb-4">
                                 <!-- Card Header - Dropdown -->
                                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
                                     <h6 class="m-0 font-weight-bold text-primary">Washington Wizards</h6>
                                 </div>
                                 <!-- Card Body -->
-                                <div class="card-body">
+                                <div class="team-card-body">
                                     <div class="team-box">
                                         <a href="https://www.w3schools.com"><img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="img/WAS.svg" alt="" href="https://fontawesome.com/icons/users?style=solid"></a>
                                     </div>
@@ -546,7 +502,7 @@
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; NBA Analysis 2019</span>
+                        <span>Copyrights © 2019 All Rights Reserved by NBA Statistics, Inc.</span>
                     </div>
                 </div>
             </footer>
