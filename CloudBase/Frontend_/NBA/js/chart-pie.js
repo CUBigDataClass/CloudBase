@@ -7,11 +7,11 @@ var ctx = document.getElementById("myPieChart");
 var myPieChart = new Chart(ctx, {
   type: 'doughnut',
   data: {
-    labels: ["Win", "Loss"],
+    labels: ["Wins", "Losses"],
     datasets: [{
-      data: [62, 20],
-      backgroundColor: ['#4e73df', '#1cc88a'],
-      hoverBackgroundColor: ['#2e59d9', '#17a673'],
+      data: [85, 20],
+      backgroundColor: ['#1a477b', '#CA0629'],
+      hoverBackgroundColor: ['#14375e', '#a3041f'],
       hoverBorderColor: "rgba(234, 236, 244, 1)",
     }],
   },
@@ -30,6 +30,6 @@ var myPieChart = new Chart(ctx, {
     legend: {
       display: false
     },
-    cutoutPercentage: 80,
+    cutoutPercentage: 83,
   },
 });
