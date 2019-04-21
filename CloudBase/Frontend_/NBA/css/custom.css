@@ -3,6 +3,12 @@ html , body{
  height:100%;
  
 }
+
+.error{
+    padding-top: 8%;
+    width: 100%;
+    text-align: center;
+}
  
 .full-width {
 	
@@ -492,8 +498,8 @@ body .container.body .right_col {
     background: #D9DEE4
 }
 body {
-    color: #73879C;
-    background: #2A3F54;
+    color: #1A477B;
+    background: #F8F9FC;
     font-family: "Helvetica Neue", Roboto, Arial, "Droid Sans", sans-serif;
     font-size: 13px;
     font-weight: 400;
@@ -652,7 +658,7 @@ h3,
     margin-bottom: 10px
 }
 a {
-    color: #5A738E;
+    color: #CA0629;
     text-decoration: none
 }
 a,
