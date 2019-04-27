@@ -140,6 +140,6 @@ HAYSTACK_CONNECTIONS={
 	'ENGINE': 'haystack.backends.solr_backend.SolrEngine',
 	# add solr core you created
 	'URL': 'http://127.0.0.1:8983/solr/nba',
-	'ADMIN_URL':'http://127.0.0.1:8983/solr/admin/cores',
+	#'ADMIN_URL':'http://127.0.0.1:8983/solr/admin/cores',
 	},
 }
