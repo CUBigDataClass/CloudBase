@@ -11,7 +11,7 @@ for details: visit https://packaging.python.org/guides/installing-using-pip-and-
 
 before run django part, you need to get in env first\
 for Windows: '.\env\Scripts\activate'\
-for max or Linus: 'source env/bin/activate'
+for max or Linus: 'source env/Scripts/activate'
 
 To install django and django rest framework
 pip install django
