@@ -456,6 +456,12 @@ small,
   border-color: #1A477B;
 }
 
+.btn-primary:hover {
+  color: #fff;
+  background-color: #CA0629;
+  border-color: #CA0629;
+}
+
 .collapse:not(.show) {
   display: none;
 }
