@@ -15,7 +15,7 @@ Power to the Fans.
 - Zhixing Chang
 
 # Team Meetings
-Every Wednesday 4:00 - 5:00 PM. Before class begins 1 floor above the Big Data lecture room in the meeting room by the stairs.
+Every Wednesday 4:00 - 5:00 PM. Before class begins 1 floor above the Big Data lecture room in the meeting room by the stairs, or in one of the library on campus.
 
 # Team Lead
 - Zhixing Chang
