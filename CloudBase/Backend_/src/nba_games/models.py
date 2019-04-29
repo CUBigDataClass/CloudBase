@@ -42,6 +42,13 @@ class stats(models.Model):
 	oppblocks = models.IntegerField(null=True)
 	oppturnovers = models.IntegerField(null=True)
 	opptotalfouls = models.IntegerField(null=True)
-	def _str_(self):
+	def __unicode__(self):
 		return str(self.team)
 	
+class teaminfo(models.Model):
+	teamcode=models.CharField(max_length=3)
+	teamname=models.CharField(max_length=50)
+	officialSite=models.CharField(max_length=100,null=True)
+	twitter=models.CharField(max_length=100,null=True)
+	def __unicode__(self):
+		return str(self.teamname)
