@@ -37,11 +37,18 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
+	'django_elasticsearch_dsl',
+	'django_elasticsearch_dsl_drf',
 	'rest_framework',
-	'haystack',
 	'nba_games'
 ]
+
+ELASTICSEARCH_DSL={
+	'default':{
+		'hosts':'localhost:9200'
+	},
+
+}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -135,11 +142,4 @@ REST_FRAMEWORK = {
     ]
 }
 
-HAYSTACK_CONNECTIONS={
-	'default':{
-	'ENGINE': 'haystack.backends.solr_backend.SolrEngine',
-	# add solr core you created
-	'URL': 'http://127.0.0.1:8983/solr/nba',
-	#'ADMIN_URL':'http://127.0.0.1:8983/solr/admin/cores',
-	},
-}
+

@@ -1,9 +1,10 @@
 from django.shortcuts import render
 from rest_framework import viewsets
-from .models import stats
+from .models import stats,teaminfo
 from .serializers import StatsSerializer
 from django.http import HttpResponse
-
+from .search import statsDocument
+from elasticsearch_dsl.query import Q
 # Create your views here.
 class StatsView(viewsets.ModelViewSet):
 	queryset=stats.objects.all().filter(team="ATL")
@@ -21,3 +22,12 @@ def test(request):
 	args={'posts':posts}
 	return render(request,'index.html',args)
 
+
+def search(request):
+	searchby=request.GET.get('q')
+	if searchby:
+		posts=statsDocument.search().query(Q("match",teamcode=searchby)|Q("match",teamname=searchby))
+
+	else:
+		posts=''
+	return render(request, 'index.html', {'posts':posts})
