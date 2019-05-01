@@ -11,4 +11,14 @@ class statsDocument(DocType):
 			'teamcode',
 			'teamname',
 			'officialSite',
+			'found',
+			'city',
+			'arena',
+			'owner',
+			'general_manager',
+			'head_coach',
+			'g_league',
+			'championships',
+			'retired_numbers',
+				
 		]

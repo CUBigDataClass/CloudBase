@@ -4,8 +4,12 @@ from django.urls import path, include
 from nba_games import views
 urlpatterns = [
 	path('', views.search),
-	path('search/',views.search, name='search'),
+	path('team/', views.allteams),
+	path('data/', views.data),
+	path('about/', views.about),
+	path('test/',views.test),
     path('admin/', admin.site.urls),
-	path('',views.test),
+
+	#path('',views.test),
 	#path('index/', )
 ]

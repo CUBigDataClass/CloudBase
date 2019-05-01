@@ -1,5 +1,7 @@
 from django.db import models
 import datetime
+from django.core.validators import URLValidator
+
 # Create your models here.
 class stats(models.Model):
 	team = models.CharField(max_length=3)
@@ -48,7 +50,33 @@ class stats(models.Model):
 class teaminfo(models.Model):
 	teamcode=models.CharField(max_length=3)
 	teamname=models.CharField(max_length=50)
-	officialSite=models.CharField(max_length=100,null=True)
-	twitter=models.CharField(max_length=100,null=True)
+	officialSite=models.TextField(validators=[URLValidator()],null=True)
+	#twitter=models.CharField(max_length=100,null=True)
+	found=models.IntegerField(null=True)
+	city=models.CharField(max_length=50,null=True)
+	arena=models.CharField(max_length=50,null=True)
+	owner=models.CharField(max_length=50,null=True)
+	general_manager=models.CharField(max_length=50,null=True)
+	head_coach=models.CharField(max_length=50,null=True)
+	g_league=models.CharField(max_length=50,null=True)
+	championships=models.IntegerField(null=True)
+	retired_numbers=models.IntegerField(null=True)
+	
 	def __unicode__(self):
 		return str(self.teamname)
+
+
+class teamplayers(models.Model):
+	location=models.CharField(max_length=20,null=True)
+	team_name=models.CharField(max_length=50, null=True)
+	player=models.CharField(max_length=50,null=True)
+	jersey=models.CharField(max_length=10,null=True)
+	position=models.CharField(max_length=10,null=True)
+	height=models.CharField(max_length=10,null=True)
+	weight=models.CharField(max_length=10,null=True)
+	birthday=models.CharField(max_length=50,null=True)
+	age=models.IntegerField(null=True)
+	experience=models.CharField(max_length=10,null=True)
+	school=models.CharField(max_length=50,null=True)
+	def __unicode__(self):
+		return str(self.player)

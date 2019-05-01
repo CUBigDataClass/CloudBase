@@ -65,7 +65,7 @@ ROOT_URLCONF = 'src.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR,'../../Frontend_/NBA/static')],
+        'DIRS': [os.path.join(BASE_DIR,'../../Frontend_/NBA_Version/static')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -132,7 +132,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS=(
-	os.path.join(BASE_DIR,'../../Frontend_/NBA/static'),
+	os.path.join(BASE_DIR,'../../Frontend_/NBA_Version/static'),
 )
 REST_FRAMEWORK = {
     # Use Django's standard `django.contrib.auth` permissions,
