@@ -18,8 +18,11 @@
 </head>
 <body>
     TEST
-    {% for win in winorlose %}
-    {{ win.win2014}},{{win.win2015}},{{ win.win2016}},{{win.win2017}},{{win.win2018}}
+
+
+    {% for win in teampointavg %}
+    {{ win.avg2014}},{{win.avg2015}},{{ win.avg2016}},{{win.avg2017}}
+
 
     {%endfor%}
 </body>

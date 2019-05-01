@@ -141,12 +141,12 @@
 
                     <!-- Content Row -->
                     <div class="row">
-                        <!-- Area Chart -->
+                        <!-- Area Chart win time -->
                         <div class="col-xl-8 col-lg-7">
                             <div class="card shadow mb-4">
                                 <!-- Card Header - Dropdown -->
                                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                                    <h6 class="m-0 font-weight-bold text-primary">Win Monthly Overview</h6>
+                                    <h6 class="m-0 font-weight-bold text-primary">Win Yearly Overview</h6>
                                 </div>
                                 <!-- Card Body -->
                                 <div class="card-body">
@@ -180,6 +180,7 @@
                             </div>
                         </div>
                     </div>
+
                     <section id="roster">
                         <!-- Content Row -->
                         <div class="row">
@@ -234,6 +235,7 @@
                             </div>
                         </div>
                     </section>
+
                     {% for item in posts %}
                     <section id="info">
                         <div class="row">
@@ -304,18 +306,32 @@
                                 </div>
                             </div>
                             {%endfor%}
+                            <!-- Area Chart avg point-->
                             <div class="col-lg-8 mb-8">
-                                <!-- Illustrations -->
                                 <div class="card shadow mb-4">
-                                    <div class="card-header py-3">
-                                        <h6 class="m-0 font-weight-bold text-primary">Twitter Feed</h6>
+                                    <!-- Card Header - Dropdown -->
+                                    <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                        <h6 class="m-0 font-weight-bold text-primary">Average Team Points Yearly Overview</h6>
                                     </div>
+                                    <!-- Card Body -->
                                     <div class="card-body">
-                                        <a href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @TwitterDev</a>
-                                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                                        <div class="chart-area">
+                                            <canvas id="myAreaChart_avgpoint"></canvas>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            <!-- Illustrations -->
+                            <!--<div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Twitter Feed</h6>
+        </div>
+        <div class="card-body">
+            <a href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @TwitterDev</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+    </div>-->
+                        </div>
+
                         </div>
                     </section>
                 </div>
@@ -436,6 +452,98 @@
                 pointHitRadius: 10,
                 pointBorderWidth: 2,
                 data: [{{ wins.win2014 }}, {{ wins.win2015 }},{{ wins.win2016 }}, {{ wins.win2017 }}],
+            }],
+        },
+        options: {
+            maintainAspectRatio: false,
+            layout: {
+                padding: {
+                    left: 10,
+                    right: 25,
+                    top: 25,
+                    bottom: 0
+                }
+            },
+            scales: {
+                xAxes: [{
+                    time: {
+                        unit: 'date'
+                    },
+                    gridLines: {
+                        display: false,
+                        drawBorder: false
+                    },
+                    ticks: {
+                        maxTicksLimit: 7
+                    }
+                }],
+                yAxes: [{
+                    ticks: {
+                        maxTicksLimit: 5,
+                        padding: 10,
+                    },
+                    gridLines: {
+                        color: "rgb(234, 236, 244)",
+                        zeroLineColor: "rgb(234, 236, 244)",
+                        drawBorder: false,
+                        borderDash: [2],
+                        zeroLineBorderDash: [2]
+                    }
+                }],
+            },
+            legend: {
+                display: false
+            },
+            tooltips: {
+                backgroundColor: "rgb(255,255,255)",
+                bodyFontColor: "#858796",
+                titleMarginBottom: 10,
+                titleFontColor: '#6e707e',
+                titleFontSize: 14,
+                borderColor: '#dddfeb',
+                borderWidth: 1,
+                xPadding: 15,
+                yPadding: 15,
+                displayColors: false,
+                intersect: false,
+                mode: 'index',
+                caretPadding: 10,
+                callbacks: {
+                    label: function (tooltipItem, chart) {
+                        var datasetLabel = chart.datasets[tooltipItem.datasetIndex].label || '';
+                        return datasetLabel + number_format(tooltipItem.yLabel);
+                    }
+                }
+            }
+        }
+    });
+
+</script>
+{%endfor%}
+
+
+<!-- edit chart-area avg points -->
+{% for avgpoint in teampointavg %}
+<script>
+    var ctx = document.getElementById("myAreaChart_avgpoint");
+    var myLineChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: ["2014 Oct - 2015 Apr", "2015 Oct - 2016 Apr", "2016 Oct - 2017 Apr", "2017 Oct - 2018 Apr"],
+            datasets: [{
+                label: "Points: ",
+                lineTension: 0.3,
+                backgroundColor: "rgba(78, 115, 223, 0.05)",
+                borderColor: "#1a477b",
+                pointRadius: 4,
+                pointBackgroundColor: "#1a477b",
+                pointBorderColor: "#1a477b",
+                pointHoverRadius: 4,
+                pointHoverBackgroundColor: "#CA0629",
+                pointHoverBorderColor: "#CA0629",
+                pointHitRadius: 10,
+                pointBorderWidth: 2,
+                data: [{{ avgpoint.avg2014 }}, {{ avgpoint.avg2015 }},{{ avgpoint.avg2016 }}, {{ avgpoint.avg2017 }}],
             }],
         },
         options: {
