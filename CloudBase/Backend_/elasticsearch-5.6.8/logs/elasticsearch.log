@@ -1,0 +1,4 @@
+[2019-04-30T10:01:55,151][INFO ][o.e.c.m.MetaDataDeleteIndexService] [-3v2EXa] [posts/Eh2YIyDBRpe9rrv_gN5wzA] deleting index
+[2019-04-30T10:01:55,357][INFO ][o.e.c.m.MetaDataCreateIndexService] [-3v2EXa] [posts] creating index, cause [api], templates [], shards [5]/[1], mappings [doc]
+[2019-04-30T10:02:51,422][INFO ][o.e.c.m.MetaDataDeleteIndexService] [-3v2EXa] [posts/5MLkqlg9QiaaE9VfjxWleA] deleting index
+[2019-04-30T10:02:51,547][INFO ][o.e.c.m.MetaDataCreateIndexService] [-3v2EXa] [posts] creating index, cause [api], templates [], shards [5]/[1], mappings [doc]

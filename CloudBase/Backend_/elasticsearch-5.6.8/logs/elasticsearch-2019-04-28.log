@@ -1,0 +1,2 @@
+[2019-04-28T11:34:03,735][INFO ][o.e.c.m.MetaDataDeleteIndexService] [-3v2EXa] [posts/6-7jGaWVS46vVV9pkDu3Tg] deleting index
+[2019-04-28T11:34:04,311][INFO ][o.e.c.m.MetaDataCreateIndexService] [-3v2EXa] [posts] creating index, cause [api], templates [], shards [5]/[1], mappings [doc]

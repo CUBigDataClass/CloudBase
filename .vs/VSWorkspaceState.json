@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\CloudBase",
+    "\\CloudBase\\Backend_",
+    "\\CloudBase\\Backend_\\src",
+    "\\CloudBase\\Backend_\\src\\nba_games",
+    "\\CloudBase\\Backend_\\src\\src",
+    "\\CloudBase\\Frontend_",
+    "\\CloudBase\\Frontend_\\NBA_Version",
+    "\\CloudBase\\Frontend_\\NBA_Version\\static",
+    "\\CloudBase\\Frontend_\\NBA_Version\\static\\js"
+  ],
+  "SelectedNode": "\\CloudBase\\Frontend_\\NBA_Version\\static\\teams.html",
+  "PreviewInSolutionExplorer": false
+}
