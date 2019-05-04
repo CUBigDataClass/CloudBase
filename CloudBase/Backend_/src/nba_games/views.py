@@ -22,7 +22,7 @@ def test(request):
 	yearwin=stats.objects.raw('select id, count(*) as total,(select count(*) as win from nba_games_stats where team=%s and winorloss="W" and year(date)=2014) as win2014, (select count(*) as win from nba_games_stats where team=%s and winorloss="W" and year(date)=2015) as win2015, (select count(*) as win from nba_games_stats where team=%s and winorloss="W" and year(date)=2016) as win2016, (select count(*) as win from nba_games_stats where team=%s and winorloss="W" and year(date)=2017) as win2017, (select count(*) as win from nba_games_stats where team=%s and winorloss="W" and year(date)=2018) as win2018 from nba_games_stats',params=[getteamcode,getteamcode,getteamcode,getteamcode,getteamcode])
 	args={'winorlose':yearwin}
 	return render(request,'test.html',args)
-
+	 
 
 def search(request):
 	searchby=request.GET.get('q')

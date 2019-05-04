@@ -25,7 +25,7 @@ SECRET_KEY = 'r6k@t72pxgykhr4*f9+r6ij4ht6373u_z7a#ppa$4_p9*c@pf)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -45,7 +45,7 @@ INSTALLED_APPS = [
 
 ELASTICSEARCH_DSL={
 	'default':{
-		'hosts':'localhost:9200'
+		'hosts':'192.168.99.100:9200'
 	},
 
 }
@@ -86,10 +86,12 @@ WSGI_APPLICATION = 'src.wsgi.application'
 
 DATABASES = {
     'default': {
+		'HOST':'192.168.99.100',
+		'PORT':'3306',
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'nba_data',
 		'USER': 'root',
-		'PASSWORD': '0705',
+		'PASSWORD': 'wearecloudbase!',
     }
 }
 
