@@ -11,7 +11,7 @@ services:
    MYSQL_DATABASE: nba_data
    MYSQL_ROOT_PASSWORD: wearecloudbase!
   ports:
-  - "3306:3306"
+  - "3300:3300"
  web:
   build: .
   command: python CloudBase/Backend_/src/manage.py runserver 0.0.0.0:8000
